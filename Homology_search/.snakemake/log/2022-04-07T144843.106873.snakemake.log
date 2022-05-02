@@ -1,3 +1,0 @@
-ModuleNotFoundError in line 6 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Control:
-No module named 'pandas'
-  File "/beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Control", line 6, in <module>

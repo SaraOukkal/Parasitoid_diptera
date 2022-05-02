@@ -1,8 +1,0 @@
-Building DAG of jobs...
-Using shell: /usr/bin/bash
-Provided cores: 200
-Rules claiming more threads will be scaled down.
-Job counts:
-	count	jobs
-	38
-Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T090745.354601.snakemake.log

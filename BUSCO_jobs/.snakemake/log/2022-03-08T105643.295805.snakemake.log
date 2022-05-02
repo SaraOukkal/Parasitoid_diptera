@@ -1,3 +1,0 @@
-ModuleNotFoundError in line 17 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO:
-No module named 'pandas'
-  File "/beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO", line 17, in <module>

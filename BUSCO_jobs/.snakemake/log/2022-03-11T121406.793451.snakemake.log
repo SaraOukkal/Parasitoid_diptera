@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 29 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Tachinids:
-Missing input files for rule BUSCO:
-/beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05 .fna

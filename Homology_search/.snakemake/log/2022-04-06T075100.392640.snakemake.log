@@ -1,3 +1,0 @@
-NameError in line 111 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Tachinids:
-name 'Output_dit' is not defined
-  File "/beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Tachinids", line 111, in <module>

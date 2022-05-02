@@ -1,4 +1,0 @@
-Building DAG of jobs...
-MissingInputException in line 22 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Control:
-Missing input files for rule all:
-/beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_922984085.1/BUSCO_results/Sum_table_GCA_922984085.1.txt
