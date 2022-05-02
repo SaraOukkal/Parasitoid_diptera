@@ -1,0 +1,20 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	40	Sum
+	1	all
+	41
+
+[Mon Mar 14 13:42:06 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_914767935.1/BUSCO_results/run_arthropoda_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_914767935.1/BUSCO_results/Sum_table_GCA_914767935.1.txt
+    jobid: 104
+    wildcards: Genome_ID=GCA_914767935.1
+
+WorkflowError in line 51 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Control:
+'Params' object has no attribute 'out'
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 140, in run_jobs
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 1003, in run

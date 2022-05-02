@@ -1,0 +1,34 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	1	BUSCO
+	1	all
+	2
+
+[Mon Mar  7 15:36:12 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014415.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014415.1/BUSCO_results/full_table.tsv
+    jobid: 1
+    wildcards: Genome_ID=GCA_001014415.1
+
+Submitted job 1 with external jobid 'Submitted batch job 3447715'.
+[Mon Mar  7 17:07:10 2022]
+Error in rule BUSCO:
+    jobid: 1
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014415.1/BUSCO_results/full_table.tsv
+    shell:
+        
+     hostname
+     cd /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014415.1/
+     /beegfs/data/soft/singularity-3.7.2/bin/singularity exec --bind /beegfs/data/soukkal:/beegfs/home/soukkal /beegfs/data/soukkal/TOOLS/BUSCO.sif busco -i /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014415.1.fna  -l arthropoda_odb10 -m genome -o BUSCO_results -c 1
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3447715
+
+Error executing rule BUSCO on cluster (jobid: 1, external: Submitted batch job 3447715, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.tudan121/snakejob.BUSCO.1.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/log/2022-03-07T153612.544340.snakemake.log

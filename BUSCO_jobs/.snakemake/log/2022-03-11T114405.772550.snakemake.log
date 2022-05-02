@@ -1,0 +1,369 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	40	QUAST
+	1	all
+	41
+
+[Fri Mar 11 11:44:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_009650485.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_009650485.1/QUAST_results/report.tsv
+    jobid: 76
+    wildcards: Genome_ID=GCF_009650485.1
+
+Submitted job 76 with external jobid 'Submitted batch job 3452354'.
+
+[Fri Mar 11 11:44:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_907269105.1/QUAST_results/report.tsv
+    jobid: 62
+    wildcards: Genome_ID=GCA_907269105.1
+
+Submitted job 62 with external jobid 'Submitted batch job 3452355'.
+
+[Fri Mar 11 11:44:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017275.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001017275.1/QUAST_results/report.tsv
+    jobid: 48
+    wildcards: Genome_ID=GCA_001017275.1
+
+Submitted job 48 with external jobid 'Submitted batch job 3452356'.
+
+[Fri Mar 11 11:44:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001014575.1/QUAST_results/report.tsv
+    jobid: 42
+    wildcards: Genome_ID=GCA_001014575.1
+
+Submitted job 42 with external jobid 'Submitted batch job 3452357'.
+
+[Fri Mar 11 11:44:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_014858695.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_014858695.1/QUAST_results/report.tsv
+    jobid: 56
+    wildcards: Genome_ID=GCA_014858695.1
+
+Submitted job 56 with external jobid 'Submitted batch job 3452358'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_922984085.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_922984085.1/QUAST_results/report.tsv
+    jobid: 70
+    wildcards: Genome_ID=GCA_922984085.1
+
+Submitted job 70 with external jobid 'Submitted batch job 3452359'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017515.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001017515.1/QUAST_results/report.tsv
+    jobid: 49
+    wildcards: Genome_ID=GCA_001017515.1
+
+Submitted job 49 with external jobid 'Submitted batch job 3452360'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_914767635.1/QUAST_results/report.tsv
+    jobid: 63
+    wildcards: Genome_ID=GCA_914767635.1
+
+Submitted job 63 with external jobid 'Submitted batch job 3452361'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013340165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_013340165.1/QUAST_results/report.tsv
+    jobid: 77
+    wildcards: Genome_ID=GCF_013340165.1
+
+Submitted job 77 with external jobid 'Submitted batch job 3452362'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014675.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001014675.1/QUAST_results/report.tsv
+    jobid: 43
+    wildcards: Genome_ID=GCA_001014675.1
+
+Submitted job 43 with external jobid 'Submitted batch job 3452363'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000001215.4.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_000001215.4/QUAST_results/report.tsv
+    jobid: 71
+    wildcards: Genome_ID=GCF_000001215.4
+
+Submitted job 71 with external jobid 'Submitted batch job 3452364'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_017309665.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_017309665.1/QUAST_results/report.tsv
+    jobid: 57
+    wildcards: Genome_ID=GCA_017309665.1
+
+Submitted job 57 with external jobid 'Submitted batch job 3452365'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001735545.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001735545.1/QUAST_results/report.tsv
+    jobid: 50
+    wildcards: Genome_ID=GCA_001735545.1
+
+Submitted job 50 with external jobid 'Submitted batch job 3452366'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_914767935.1/QUAST_results/report.tsv
+    jobid: 64
+    wildcards: Genome_ID=GCA_914767935.1
+
+Submitted job 64 with external jobid 'Submitted batch job 3452367'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_013731165.1/QUAST_results/report.tsv
+    jobid: 78
+    wildcards: Genome_ID=GCF_013731165.1
+
+Submitted job 78 with external jobid 'Submitted batch job 3452368'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001014935.1/QUAST_results/report.tsv
+    jobid: 44
+    wildcards: Genome_ID=GCA_001014935.1
+
+Submitted job 44 with external jobid 'Submitted batch job 3452369'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_019455685.1/QUAST_results/report.tsv
+    jobid: 58
+    wildcards: Genome_ID=GCA_019455685.1
+
+Submitted job 58 with external jobid 'Submitted batch job 3452370'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000347755.3.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_000347755.3/QUAST_results/report.tsv
+    jobid: 72
+    wildcards: Genome_ID=GCF_000347755.3
+
+Submitted job 72 with external jobid 'Submitted batch job 3452371'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003055125.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_003055125.1/QUAST_results/report.tsv
+    jobid: 51
+    wildcards: Genome_ID=GCA_003055125.1
+
+Submitted job 51 with external jobid 'Submitted batch job 3452372'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916048285.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_916048285.2/QUAST_results/report.tsv
+    jobid: 65
+    wildcards: Genome_ID=GCA_916048285.2
+
+Submitted job 65 with external jobid 'Submitted batch job 3452373'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_014805625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_014805625.1/QUAST_results/report.tsv
+    jobid: 79
+    wildcards: Genome_ID=GCF_014805625.1
+
+Submitted job 79 with external jobid 'Submitted batch job 3452374'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015075.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001015075.1/QUAST_results/report.tsv
+    jobid: 45
+    wildcards: Genome_ID=GCA_001015075.1
+
+Submitted job 45 with external jobid 'Submitted batch job 3452375'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_020466095.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_020466095.1/QUAST_results/report.tsv
+    jobid: 59
+    wildcards: Genome_ID=GCA_020466095.1
+
+Submitted job 59 with external jobid 'Submitted batch job 3452376'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000699065.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_000699065.1/QUAST_results/report.tsv
+    jobid: 73
+    wildcards: Genome_ID=GCF_000699065.1
+
+Submitted job 73 with external jobid 'Submitted batch job 3452377'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_003123925.1/QUAST_results/report.tsv
+    jobid: 52
+    wildcards: Genome_ID=GCA_003123925.1
+
+Submitted job 52 with external jobid 'Submitted batch job 3452378'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916050605.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_916050605.2/QUAST_results/report.tsv
+    jobid: 66
+    wildcards: Genome_ID=GCA_916050605.2
+
+Submitted job 66 with external jobid 'Submitted batch job 3452379'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_016617805.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_016617805.1/QUAST_results/report.tsv
+    jobid: 80
+    wildcards: Genome_ID=GCF_016617805.1
+
+Submitted job 80 with external jobid 'Submitted batch job 3452380'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015115.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001015115.1/QUAST_results/report.tsv
+    jobid: 46
+    wildcards: Genome_ID=GCA_001015115.1
+
+Submitted job 46 with external jobid 'Submitted batch job 3452381'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_021234595.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_021234595.1/QUAST_results/report.tsv
+    jobid: 60
+    wildcards: Genome_ID=GCA_021234595.1
+
+Submitted job 60 with external jobid 'Submitted batch job 3452382'.
+
+[Fri Mar 11 11:44:10 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_001015335.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_001015335.1/QUAST_results/report.tsv
+    jobid: 74
+    wildcards: Genome_ID=GCF_001015335.1
+
+Submitted job 74 with external jobid 'Submitted batch job 3452383'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_005959815.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_005959815.1/QUAST_results/report.tsv
+    jobid: 55
+    wildcards: Genome_ID=GCA_005959815.1
+
+Submitted job 55 with external jobid 'Submitted batch job 3452384'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003952975.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_003952975.1/QUAST_results/report.tsv
+    jobid: 53
+    wildcards: Genome_ID=GCA_003952975.1
+
+Submitted job 53 with external jobid 'Submitted batch job 3452385'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_917880715.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_917880715.2/QUAST_results/report.tsv
+    jobid: 67
+    wildcards: Genome_ID=GCA_917880715.2
+
+Submitted job 67 with external jobid 'Submitted batch job 3452386'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015175.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001015175.1/QUAST_results/report.tsv
+    jobid: 47
+    wildcards: Genome_ID=GCA_001015175.1
+
+Submitted job 47 with external jobid 'Submitted batch job 3452387'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_905231855.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_905231855.2/QUAST_results/report.tsv
+    jobid: 61
+    wildcards: Genome_ID=GCA_905231855.2
+
+Submitted job 61 with external jobid 'Submitted batch job 3452388'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_002237135.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_002237135.1/QUAST_results/report.tsv
+    jobid: 75
+    wildcards: Genome_ID=GCF_002237135.1
+
+Submitted job 75 with external jobid 'Submitted batch job 3452389'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_004302925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_004302925.1/QUAST_results/report.tsv
+    jobid: 54
+    wildcards: Genome_ID=GCA_004302925.1
+
+Submitted job 54 with external jobid 'Submitted batch job 3452390'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_920104205.1/QUAST_results/report.tsv
+    jobid: 68
+    wildcards: Genome_ID=GCA_920104205.1
+
+Submitted job 68 with external jobid 'Submitted batch job 3452391'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_920105625.1/QUAST_results/report.tsv
+    jobid: 69
+    wildcards: Genome_ID=GCA_920105625.1
+
+Submitted job 69 with external jobid 'Submitted batch job 3452392'.
+
+[Fri Mar 11 11:44:11 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014415.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCA_001014415.1/QUAST_results/report.tsv
+    jobid: 41
+    wildcards: Genome_ID=GCA_001014415.1
+
+Submitted job 41 with external jobid 'Submitted batch job 3452393'.
+Will exit after finishing currently running jobs.

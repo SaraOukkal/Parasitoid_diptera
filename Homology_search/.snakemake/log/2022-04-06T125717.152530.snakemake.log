@@ -1,0 +1,488 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	40	Translate_loci
+	42
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/Fasta_viral_loci.faa
+    jobid: 160
+    wildcards: Genome_ID=GCF_014805625.1
+
+Submitted job 160 with external jobid 'Submitted batch job 3614545'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/Fasta_viral_loci.faa
+    jobid: 132
+    wildcards: Genome_ID=GCA_003055125.1
+
+Submitted job 132 with external jobid 'Submitted batch job 3614546'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/Fasta_viral_loci.faa
+    jobid: 146
+    wildcards: Genome_ID=GCA_916048285.2
+
+Submitted job 146 with external jobid 'Submitted batch job 3614547'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/Fasta_viral_loci.faa
+    jobid: 126
+    wildcards: Genome_ID=GCA_001015075.1
+
+Submitted job 126 with external jobid 'Submitted batch job 3614548'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/Fasta_viral_loci.faa
+    jobid: 140
+    wildcards: Genome_ID=GCA_020466095.1
+
+Submitted job 140 with external jobid 'Submitted batch job 3614549'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/Fasta_viral_loci.faa
+    jobid: 154
+    wildcards: Genome_ID=GCF_000699065.1
+
+Submitted job 154 with external jobid 'Submitted batch job 3614550'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa
+    jobid: 139
+    wildcards: Genome_ID=GCA_019455685.1
+
+Submitted job 139 with external jobid 'Submitted batch job 3614551'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa
+    jobid: 133
+    wildcards: Genome_ID=GCA_003123925.1
+
+Submitted job 133 with external jobid 'Submitted batch job 3614552'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/Fasta_viral_loci.faa
+    jobid: 147
+    wildcards: Genome_ID=GCA_916050605.2
+
+Submitted job 147 with external jobid 'Submitted batch job 3614553'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_016617805.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_016617805.1/Fasta_viral_loci.faa
+    jobid: 161
+    wildcards: Genome_ID=GCF_016617805.1
+
+Submitted job 161 with external jobid 'Submitted batch job 3614554'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa
+    jobid: 155
+    wildcards: Genome_ID=GCF_001015335.1
+
+Submitted job 155 with external jobid 'Submitted batch job 3614555'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa
+    jobid: 141
+    wildcards: Genome_ID=GCA_021234595.1
+
+Submitted job 141 with external jobid 'Submitted batch job 3614556'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/Fasta_viral_loci.faa
+    jobid: 127
+    wildcards: Genome_ID=GCA_001015115.1
+
+Submitted job 127 with external jobid 'Submitted batch job 3614557'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/Fasta_viral_loci.faa
+    jobid: 134
+    wildcards: Genome_ID=GCA_003952975.1
+
+Submitted job 134 with external jobid 'Submitted batch job 3614558'.
+
+[Wed Apr  6 12:57:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/Fasta_viral_loci.faa
+    jobid: 148
+    wildcards: Genome_ID=GCA_917880715.2
+
+Submitted job 148 with external jobid 'Submitted batch job 3614559'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/Fasta_viral_loci.faa
+    jobid: 128
+    wildcards: Genome_ID=GCA_001015175.1
+
+Submitted job 128 with external jobid 'Submitted batch job 3614560'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/Fasta_viral_loci.faa
+    jobid: 142
+    wildcards: Genome_ID=GCA_905231855.2
+
+Submitted job 142 with external jobid 'Submitted batch job 3614561'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/Fasta_viral_loci.faa
+    jobid: 156
+    wildcards: Genome_ID=GCF_002237135.1
+
+Submitted job 156 with external jobid 'Submitted batch job 3614562'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/Fasta_viral_loci.faa
+    jobid: 135
+    wildcards: Genome_ID=GCA_004302925.1
+
+Submitted job 135 with external jobid 'Submitted batch job 3614563'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa
+    jobid: 149
+    wildcards: Genome_ID=GCA_920104205.1
+
+Submitted job 149 with external jobid 'Submitted batch job 3614564'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/Fasta_viral_loci.faa
+    jobid: 129
+    wildcards: Genome_ID=GCA_001017275.1
+
+Submitted job 129 with external jobid 'Submitted batch job 3614565'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa
+    jobid: 143
+    wildcards: Genome_ID=GCA_907269105.1
+
+Submitted job 143 with external jobid 'Submitted batch job 3614566'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/Fasta_viral_loci.faa
+    jobid: 157
+    wildcards: Genome_ID=GCF_009650485.1
+
+Submitted job 157 with external jobid 'Submitted batch job 3614567'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/Fasta_viral_loci.faa
+    jobid: 122
+    wildcards: Genome_ID=GCA_001014415.1
+
+Submitted job 122 with external jobid 'Submitted batch job 3614568'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/Fasta_viral_loci.faa
+    jobid: 136
+    wildcards: Genome_ID=GCA_005959815.1
+
+Submitted job 136 with external jobid 'Submitted batch job 3614569'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa
+    jobid: 150
+    wildcards: Genome_ID=GCA_920105625.1
+
+Submitted job 150 with external jobid 'Submitted batch job 3614570'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/Fasta_viral_loci.faa
+    jobid: 153
+    wildcards: Genome_ID=GCF_000347755.3
+
+Submitted job 153 with external jobid 'Submitted batch job 3614571'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/Fasta_viral_loci.faa
+    jobid: 130
+    wildcards: Genome_ID=GCA_001017515.1
+
+Submitted job 130 with external jobid 'Submitted batch job 3614572'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa
+    jobid: 144
+    wildcards: Genome_ID=GCA_914767635.1
+
+Submitted job 144 with external jobid 'Submitted batch job 3614573'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/Fasta_viral_loci.faa
+    jobid: 158
+    wildcards: Genome_ID=GCF_013340165.1
+
+Submitted job 158 with external jobid 'Submitted batch job 3614574'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/Fasta_viral_loci.faa
+    jobid: 137
+    wildcards: Genome_ID=GCA_014858695.1
+
+Submitted job 137 with external jobid 'Submitted batch job 3614575'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/Fasta_viral_loci.faa
+    jobid: 123
+    wildcards: Genome_ID=GCA_001014575.1
+
+Submitted job 123 with external jobid 'Submitted batch job 3614576'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/Fasta_viral_loci.faa
+    jobid: 151
+    wildcards: Genome_ID=GCA_922984085.1
+
+Submitted job 151 with external jobid 'Submitted batch job 3614577'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/Fasta_viral_loci.faa
+    jobid: 131
+    wildcards: Genome_ID=GCA_001735545.1
+
+Submitted job 131 with external jobid 'Submitted batch job 3614578'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa
+    jobid: 145
+    wildcards: Genome_ID=GCA_914767935.1
+
+Submitted job 145 with external jobid 'Submitted batch job 3614579'.
+
+[Wed Apr  6 12:57:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa
+    jobid: 159
+    wildcards: Genome_ID=GCF_013731165.1
+
+Submitted job 159 with external jobid 'Submitted batch job 3614580'.
+
+[Wed Apr  6 12:57:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/Fasta_viral_loci.faa
+    jobid: 124
+    wildcards: Genome_ID=GCA_001014675.1
+
+Submitted job 124 with external jobid 'Submitted batch job 3614581'.
+
+[Wed Apr  6 12:57:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/Fasta_viral_loci.faa
+    jobid: 138
+    wildcards: Genome_ID=GCA_017309665.1
+
+Submitted job 138 with external jobid 'Submitted batch job 3614582'.
+
+[Wed Apr  6 12:57:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/Fasta_viral_loci.faa
+    jobid: 152
+    wildcards: Genome_ID=GCF_000001215.4
+
+Submitted job 152 with external jobid 'Submitted batch job 3614583'.
+
+[Wed Apr  6 12:57:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/Fasta_viral_loci.faa
+    jobid: 125
+    wildcards: Genome_ID=GCA_001014935.1
+
+Submitted job 125 with external jobid 'Submitted batch job 3614584'.
+[Wed Apr  6 12:57:45 2022]
+Finished job 160.
+1 of 42 steps (2%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 132.
+2 of 42 steps (5%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 146.
+3 of 42 steps (7%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 126.
+4 of 42 steps (10%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 140.
+5 of 42 steps (12%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 154.
+6 of 42 steps (14%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 139.
+7 of 42 steps (17%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 133.
+8 of 42 steps (19%) done
+[Wed Apr  6 12:57:45 2022]
+Finished job 161.
+9 of 42 steps (21%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 155.
+10 of 42 steps (24%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 141.
+11 of 42 steps (26%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 127.
+12 of 42 steps (29%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 134.
+13 of 42 steps (31%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 148.
+14 of 42 steps (33%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 128.
+15 of 42 steps (36%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 142.
+16 of 42 steps (38%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 156.
+17 of 42 steps (40%) done
+[Wed Apr  6 12:57:46 2022]
+Finished job 135.
+18 of 42 steps (43%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 129.
+19 of 42 steps (45%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 143.
+20 of 42 steps (48%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 157.
+21 of 42 steps (50%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 122.
+22 of 42 steps (52%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 136.
+23 of 42 steps (55%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 153.
+24 of 42 steps (57%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 130.
+25 of 42 steps (60%) done
+[Wed Apr  6 12:57:47 2022]
+Finished job 158.
+26 of 42 steps (62%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 137.
+27 of 42 steps (64%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 123.
+28 of 42 steps (67%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 151.
+29 of 42 steps (69%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 131.
+30 of 42 steps (71%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 145.
+31 of 42 steps (74%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 159.
+32 of 42 steps (76%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 124.
+33 of 42 steps (79%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 138.
+34 of 42 steps (81%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 152.
+35 of 42 steps (83%) done
+[Wed Apr  6 12:57:48 2022]
+Finished job 125.
+36 of 42 steps (86%) done
+[Wed Apr  6 12:57:59 2022]
+Finished job 147.
+37 of 42 steps (88%) done
+[Wed Apr  6 12:57:59 2022]
+Finished job 149.
+38 of 42 steps (90%) done
+[Wed Apr  6 12:57:59 2022]
+Finished job 150.
+39 of 42 steps (93%) done
+[Wed Apr  6 12:57:59 2022]
+Finished job 144.
+40 of 42 steps (95%) done
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T125717.152530.snakemake.log

@@ -1,0 +1,91 @@
+import pandas as pd 
+
+#Commande à lancer : 
+#nohup snakemake -j 8000  -s Snakemake_BUSCO_QUAST_Tachinids -n --cluster "sbatch -J {params.name} -p normal --cpus-per-task  {params.threads}  -o {params.out} -e {params.err}  " &> nohup_Snakemake_BUSCO_QUAST_Tachinids.out & 
+
+#Your softs 
+BUSCO="/beegfs/home/soukkal/Tools/BUSCO/busco/bin/busco"
+
+#Your paths 
+Genomes_paths="/beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/"
+Output_Stat_dir="/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/" 
+BUSCO_logs_dir="/beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/BUSCO_LOGS/"
+QUAST_logs_dir="/beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/QUAST_LOGS/"
+
+#Your BUSCO parameters 
+Lineages="diptera_odb10"
+Mode="genome"
+
+Genome_IDS_table=pd.read_csv("/beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes_list.txt",header=None)
+list_Genome_IDs=list(Genome_IDS_table[0])
+
+rule all:
+  input:
+        expand(Output_Stat_dir+"{Genome_ID}/BUSCO_results/run_diptera_odb10/full_table.tsv", Genome_ID = list_Genome_IDs),
+        expand(Output_Stat_dir+"{Genome_ID}/QUAST_results/report.tsv", Genome_ID = list_Genome_IDs),
+        expand(Output_Stat_dir+"{Genome_ID}/BUSCO_results/run_diptera_odb10/Sum_table_{Genome_ID}.txt", Genome_ID = list_Genome_IDs)
+
+
+#Run BUSCO analysis
+rule BUSCO:
+  params:
+     threads="4",
+     time="8:00:00",
+     name="BUSCO_run_{Genome_ID}",
+     out=BUSCO_logs_dir+"BUSCO_job_{Genome_ID}.out",
+     err=BUSCO_logs_dir+"BUSCO_job_{Genome_ID}.error",
+     lineage=Lineages,
+     mode=Mode
+  input:
+     Genome_assembly= Genomes_paths+"{Genome_ID}.fna"
+  output: 
+     BUSCO_full_table_result=Output_Stat_dir+"{Genome_ID}/BUSCO_results/run_diptera_odb10/full_table.tsv"
+  shell:
+     """
+     hostname
+     cd {Output_Stat_dir}{wildcards.Genome_ID}/
+     /beegfs/data/soft/singularity-3.7.2/bin/singularity exec --bind /beegfs/:/beegfs/ /beegfs/data/soukkal/TOOLS/BUSCO.sif busco -i {input.Genome_assembly}  -l {params.lineage} -m {params.mode} -o BUSCO_results -c 4 -f
+     """
+
+#Run BUSCO summary: (Rearrange BUSCO output into a readable summary table)
+rule Sum: 
+  params:
+     threads="1",
+     time="00:10:00",
+     name="Sum_run_{Genome_ID}",
+     out=BUSCO_logs_dir+"Sum_job_{Genome_ID}.out",
+     err=BUSCO_logs_dir+"Sum_job_{Genome_ID}.error"
+  input:
+     Busco_res=Output_Stat_dir+"{Genome_ID}/BUSCO_results/run_diptera_odb10/full_table.tsv"
+  output: 
+     Busco_sum=Output_Stat_dir+"{Genome_ID}/BUSCO_results/run_diptera_odb10/Sum_table_{Genome_ID}.txt"
+  shell:
+     """
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum {input.Busco_res}  -o {output.Busco_sum} -sp {wildcards.Genome_ID}
+     cp {output.Busco_sum} /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_{wildcards.Genome_ID}.txt
+     """
+
+#Run QUAST analysis: 
+rule QUAST:
+  params:
+     threads="5",
+     time="00:40:00",
+     name="QUAST_run_{Genome_ID}",
+     out=QUAST_logs_dir+"QUAST_job_{Genome_ID}.out",
+     err=QUAST_logs_dir+"QUAST_job_{Genome_ID}.error"
+
+  input:
+     Genome_assembly= Genomes_paths+"{Genome_ID}.fna"
+  output: 
+     QUAST_full_table_result=Output_Stat_dir+"{Genome_ID}/QUAST_results/report.tsv"
+  shell:
+     """
+   python3 /beegfs/data/soukkal/StageM2/Scripts/quast/quast.py {input.Genome_assembly}  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/{wildcards.Genome_ID}/QUAST_results/ -t 5
+   cp {Output_Stat_dir}{wildcards.Genome_ID}/QUAST_results/report.tsv {Output_Stat_dir}Quast_sum/report_{wildcards.Genome_ID}.tsv
+     """
+
+
+
+
+
+

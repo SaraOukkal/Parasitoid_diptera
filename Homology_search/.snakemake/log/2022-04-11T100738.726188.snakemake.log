@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	Filter_loci
+	1	NR_homology
+	1	all
+	3
+
+[Mon Apr 11 10:07:45 2022]
+rule NR_homology:
+    input: /beegfs/data/bguinet/these/NR_db
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    jobid: 113
+
+Submitted job 113 with external jobid 'Submitted batch job 3619499'.
+[Mon Apr 11 11:35:41 2022]
+Error in rule NR_homology:
+    jobid: 113
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    shell:
+        
+		#Search for homology between NR and Candidate viral loci/viral protein
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db /beegfs/data/bguinet/these/NR_db /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_tpm --force-reuse
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db /beegfs/data/bguinet/these/NR_db /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8 -s 7 --threads 20
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3619499
+
+Error executing rule NR_homology on cluster (jobid: 113, external: Submitted batch job 3619499, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.k9fu8vqj/snakejob.NR_homology.113.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-11T100738.726188.snakemake.log

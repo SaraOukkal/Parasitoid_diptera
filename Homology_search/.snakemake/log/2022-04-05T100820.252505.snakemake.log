@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 99 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Tachinids:
+Missing input files for rule Extract_loci:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed

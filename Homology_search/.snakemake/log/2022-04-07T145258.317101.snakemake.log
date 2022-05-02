@@ -1,0 +1,271 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	40	Extract_translate_loci
+	41
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_021234595.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa
+    jobid: 101
+    wildcards: Genome_ID=GCA_021234595.1
+
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_001015335.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa
+    jobid: 115
+    wildcards: Genome_ID=GCF_001015335.1
+
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa
+    jobid: 103
+    wildcards: Genome_ID=GCA_907269105.1
+
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa
+    jobid: 104
+    wildcards: Genome_ID=GCA_914767635.1
+
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa
+    jobid: 110
+    wildcards: Genome_ID=GCA_920105625.1
+
+
+[Thu Apr  7 14:53:05 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa
+    jobid: 105
+    wildcards: Genome_ID=GCA_914767935.1
+
+
+[Thu Apr  7 14:53:06 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa
+    jobid: 119
+    wildcards: Genome_ID=GCF_013731165.1
+
+
+[Thu Apr  7 14:53:06 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa
+    jobid: 93
+    wildcards: Genome_ID=GCA_003123925.1
+
+
+[Thu Apr  7 14:53:06 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa
+    jobid: 109
+    wildcards: Genome_ID=GCA_920104205.1
+
+
+[Thu Apr  7 14:53:06 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa
+    jobid: 99
+    wildcards: Genome_ID=GCA_019455685.1
+
+[Thu Apr  7 14:53:31 2022]
+Error in rule Extract_translate_loci:
+    jobid: 104
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.fna -sp GCA_914767635.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:34 2022]
+Error in rule Extract_translate_loci:
+    jobid: 109
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.fna -sp GCA_920104205.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:36 2022]
+Error in rule Extract_translate_loci:
+    jobid: 105
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.fna -sp GCA_914767935.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:36 2022]
+Error in rule Extract_translate_loci:
+    jobid: 103
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.fna -sp GCA_907269105.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:36 2022]
+Error in rule Extract_translate_loci:
+    jobid: 115
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_001015335.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.fna -sp GCF_001015335.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:37 2022]
+Error in rule Extract_translate_loci:
+    jobid: 99
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.fna -sp GCA_019455685.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:40 2022]
+[Thu Apr  7 14:53:40 2022]
+Error in rule Extract_translate_loci:
+Error in rule Extract_translate_loci:
+    jobid: 93
+    jobid: 110
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.fna -sp GCA_003123925.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.fna -sp GCA_920105625.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/Fasta_viral_loci.faa
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:40 2022]
+Error in rule Extract_translate_loci:
+    jobid: 119
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.fna -sp GCF_013731165.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/Fasta_viral_loci.faa
+[Thu Apr  7 14:53:42 2022]
+Error in rule Extract_translate_loci:
+    jobid: 101
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa
+    shell:
+        
+		#Python script that extracts sequence from candidate loci coordinates and translate it into aa : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Extract_and_translate_loci.py -g /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_021234595.1.fna -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa -dna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.fna -sp GCA_021234595.1 
+		#mkdir /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/ #If it doesnt exist 
+		#Put all loci Fasta sequences into one unique file :
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa
+		cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Extract_translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/Fasta_viral_loci.faa
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-07T145258.317101.snakemake.log

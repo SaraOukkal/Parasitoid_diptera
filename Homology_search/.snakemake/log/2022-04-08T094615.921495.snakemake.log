@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	Filter_loci
+	1	NR_homology
+	1	all
+	3
+
+[Fri Apr  8 09:46:22 2022]
+rule NR_homology:
+    input: /beegfs/data/bguinet/these/NR_db
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    jobid: 122
+
+Error submitting jobscript (exit code 1):
+
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-08T094615.921495.snakemake.log

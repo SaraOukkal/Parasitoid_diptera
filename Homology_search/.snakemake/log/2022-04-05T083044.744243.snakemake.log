@@ -1,0 +1,251 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	40	Define_loci
+	40	Extract_loci
+	36	Homology_analysis
+	157
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_020466095.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 20
+    wildcards: Genome_ID=GCA_020466095.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 13
+    wildcards: Genome_ID=GCA_003123925.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_021234595.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 21
+    wildcards: Genome_ID=GCA_021234595.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_001015335.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 35
+    wildcards: Genome_ID=GCF_001015335.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015115.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 7
+    wildcards: Genome_ID=GCA_001015115.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_016617805.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_016617805.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 41
+    wildcards: Genome_ID=GCF_016617805.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014415.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 2
+    wildcards: Genome_ID=GCA_001014415.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_004302925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 15
+    wildcards: Genome_ID=GCA_004302925.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 29
+    wildcards: Genome_ID=GCA_920104205.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015175.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 8
+    wildcards: Genome_ID=GCA_001015175.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_905231855.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2.m8
+    jobid: 22
+    wildcards: Genome_ID=GCA_905231855.2
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_002237135.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 36
+    wildcards: Genome_ID=GCF_002237135.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_005959815.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 16
+    wildcards: Genome_ID=GCA_005959815.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 30
+    wildcards: Genome_ID=GCA_920105625.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 23
+    wildcards: Genome_ID=GCA_907269105.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_009650485.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 37
+    wildcards: Genome_ID=GCF_009650485.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017275.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 9
+    wildcards: Genome_ID=GCA_001017275.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 3
+    wildcards: Genome_ID=GCA_001014575.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_014858695.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 17
+    wildcards: Genome_ID=GCA_014858695.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_922984085.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 31
+    wildcards: Genome_ID=GCA_922984085.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017515.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 10
+    wildcards: Genome_ID=GCA_001017515.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 24
+    wildcards: Genome_ID=GCA_914767635.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013340165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 38
+    wildcards: Genome_ID=GCF_013340165.1
+
+Error submitting jobscript (exit code 1):
+
+
+[Tue Apr  5 08:30:48 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 74
+    wildcards: Genome_ID=GCF_000699065.1
+
+WorkflowError in line 80 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Control:
+'Params' object has no attribute 'exclude'
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 140, in run_jobs
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 1003, in run

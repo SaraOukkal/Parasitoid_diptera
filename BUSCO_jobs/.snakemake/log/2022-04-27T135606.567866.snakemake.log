@@ -1,0 +1,171 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	5	BUSCO
+	5	QUAST
+	5	Sum
+	1	all
+	16
+
+[Wed Apr 27 13:56:08 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_011057455.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 2
+    wildcards: Genome_ID=GCA_011057455.1
+
+Submitted job 2 with external jobid 'Submitted batch job 3676724'.
+
+[Wed Apr 27 13:56:08 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_019393585.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 5
+    wildcards: Genome_ID=GCA_019393585.1
+
+Submitted job 5 with external jobid 'Submitted batch job 3676725'.
+
+[Wed Apr 27 13:56:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_001855655.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/QUAST_results/report.tsv
+    jobid: 6
+    wildcards: Genome_ID=GCA_001855655.1
+
+Submitted job 6 with external jobid 'Submitted batch job 3676726'.
+
+[Wed Apr 27 13:56:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCF_015476425.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/QUAST_results/report.tsv
+    jobid: 8
+    wildcards: Genome_ID=GCF_015476425.1
+
+Submitted job 8 with external jobid 'Submitted batch job 3676727'.
+
+[Wed Apr 27 13:56:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_019393585.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/QUAST_results/report.tsv
+    jobid: 10
+    wildcards: Genome_ID=GCA_019393585.1
+
+Submitted job 10 with external jobid 'Submitted batch job 3676728'.
+
+[Wed Apr 27 13:56:09 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCF_015476425.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 3
+    wildcards: Genome_ID=GCF_015476425.1
+
+Submitted job 3 with external jobid 'Submitted batch job 3676729'.
+
+[Wed Apr 27 13:56:09 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_009823575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 4
+    wildcards: Genome_ID=GCA_009823575.1
+
+Submitted job 4 with external jobid 'Submitted batch job 3676730'.
+
+[Wed Apr 27 13:56:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_011057455.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/QUAST_results/report.tsv
+    jobid: 7
+    wildcards: Genome_ID=GCA_011057455.1
+
+Submitted job 7 with external jobid 'Submitted batch job 3676731'.
+
+[Wed Apr 27 13:56:09 2022]
+rule QUAST:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_009823575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/QUAST_results/report.tsv
+    jobid: 9
+    wildcards: Genome_ID=GCA_009823575.1
+
+Submitted job 9 with external jobid 'Submitted batch job 3676732'.
+
+[Wed Apr 27 13:56:09 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_001855655.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 1
+    wildcards: Genome_ID=GCA_001855655.1
+
+Submitted job 1 with external jobid 'Submitted batch job 3676733'.
+[Wed Apr 27 13:57:02 2022]
+Error in rule QUAST:
+    jobid: 6
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/QUAST_results/report.tsv
+    shell:
+        
+   python3 /beegfs/data/soukkal/StageM2/Tools/quast/quast.py /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_001855655.1.fna  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/QUAST_results/ -t 5
+   cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/QUAST_results/report.tsv /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Quast_sum/report_GCA_001855655.1.tsv
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3676726
+
+Error executing rule QUAST on cluster (jobid: 6, external: Submitted batch job 3676726, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.ug3xhi9i/snakejob.QUAST.6.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 27 13:57:13 2022]
+Error in rule QUAST:
+    jobid: 10
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/QUAST_results/report.tsv
+    shell:
+        
+   python3 /beegfs/data/soukkal/StageM2/Tools/quast/quast.py /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_019393585.1.fna  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/QUAST_results/ -t 5
+   cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/QUAST_results/report.tsv /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Quast_sum/report_GCA_019393585.1.tsv
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3676728
+
+Error executing rule QUAST on cluster (jobid: 10, external: Submitted batch job 3676728, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.ug3xhi9i/snakejob.QUAST.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 27 13:57:34 2022]
+Error in rule QUAST:
+    jobid: 8
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/QUAST_results/report.tsv
+    shell:
+        
+   python3 /beegfs/data/soukkal/StageM2/Tools/quast/quast.py /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCF_015476425.1.fna  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/QUAST_results/ -t 5
+   cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/QUAST_results/report.tsv /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Quast_sum/report_GCF_015476425.1.tsv
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3676727
+
+Error executing rule QUAST on cluster (jobid: 8, external: Submitted batch job 3676727, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.ug3xhi9i/snakejob.QUAST.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 27 13:57:44 2022]
+Error in rule QUAST:
+    jobid: 7
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/QUAST_results/report.tsv
+    shell:
+        
+   python3 /beegfs/data/soukkal/StageM2/Tools/quast/quast.py /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_011057455.1.fna  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/QUAST_results/ -t 5
+   cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/QUAST_results/report.tsv /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Quast_sum/report_GCA_011057455.1.tsv
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3676731
+
+Error executing rule QUAST on cluster (jobid: 7, external: Submitted batch job 3676731, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.ug3xhi9i/snakejob.QUAST.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 27 13:58:04 2022]
+Error in rule QUAST:
+    jobid: 9
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/QUAST_results/report.tsv
+    shell:
+        
+   python3 /beegfs/data/soukkal/StageM2/Tools/quast/quast.py /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_009823575.1.fna  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/QUAST_results/ -t 5
+   cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/QUAST_results/report.tsv /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Quast_sum/report_GCA_009823575.1.tsv
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3676732
+
+Error executing rule QUAST on cluster (jobid: 9, external: Submitted batch job 3676732, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.ug3xhi9i/snakejob.QUAST.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr 27 19:15:17 2022]
+Finished job 1.
+1 of 16 steps (6%) done
+[Wed Apr 27 20:13:18 2022]
+Finished job 5.
+2 of 16 steps (12%) done

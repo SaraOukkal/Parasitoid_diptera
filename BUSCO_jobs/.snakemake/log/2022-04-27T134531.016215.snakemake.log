@@ -1,0 +1,4 @@
+Building DAG of jobs...
+MissingInputException in line 30 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Hymenoptera:
+Missing input files for rule BUSCO:
+/beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_001855655.1.fna

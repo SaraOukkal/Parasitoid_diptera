@@ -1,0 +1,40 @@
+Building DAG of jobs...
+MissingInputException in line 23 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Tachinids:
+Missing input files for rule all:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.fna
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.fna

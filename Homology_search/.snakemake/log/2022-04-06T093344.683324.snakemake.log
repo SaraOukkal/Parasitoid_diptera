@@ -1,0 +1,405 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 200
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	36	Translate_loci
+	37
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+    jobid: 132
+    wildcards: Genome_ID=jurinella_wood01
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+    jobid: 146
+    wildcards: Genome_ID=siphosturmia_wood02
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+    jobid: 118
+    wildcards: Genome_ID=genea_wood03dhj01
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa
+    jobid: 126
+    wildcards: Genome_ID=houghia_pallida
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa
+    jobid: 140
+    wildcards: Genome_ID=lixophaga_wood06
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa
+    jobid: 119
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa
+    jobid: 133
+    wildcards: Genome_ID=calolydella_timjamesi
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa
+    jobid: 113
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa
+    jobid: 127
+    wildcards: Genome_ID=belvosia_woodley07g
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa
+    jobid: 141
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa
+    jobid: 120
+    wildcards: Genome_ID=houghia_bivittata
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa
+    jobid: 134
+    wildcards: Genome_ID=leschenaultia_wood15
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa
+    jobid: 148
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa
+    jobid: 114
+    wildcards: Genome_ID=drino_wood06dhj05
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa
+    jobid: 128
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+
+[Wed Apr  6 09:33:48 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa
+    jobid: 142
+    wildcards: Genome_ID=lixophaga_wood09
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa
+    jobid: 135
+    wildcards: Genome_ID=campylocheta_wood03
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa
+    jobid: 149
+    wildcards: Genome_ID=drino_wood06dhj01
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa
+    jobid: 121
+    wildcards: Genome_ID=argyrophylax_wood05
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa
+    jobid: 115
+    wildcards: Genome_ID=archytas_wood02
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa
+    jobid: 129
+    wildcards: Genome_ID=belvosia_woodley10
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+    jobid: 143
+    wildcards: Genome_ID=chrysotachina_wood01
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+    jobid: 122
+    wildcards: Genome_ID=houghia_brevipilosa
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+    jobid: 136
+    wildcards: Genome_ID=leskia_janzen27
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+    jobid: 116
+    wildcards: Genome_ID=genea_wood01
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+    jobid: 130
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+    jobid: 144
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+    jobid: 123
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+    jobid: 137
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+    jobid: 117
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+    jobid: 131
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+    jobid: 145
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+    jobid: 124
+    wildcards: Genome_ID=houghia_graciloides
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+    jobid: 138
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa
+    jobid: 125
+    wildcards: Genome_ID=austrophorocera_wood05
+
+
+[Wed Apr  6 09:33:49 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa
+    jobid: 139
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+[Wed Apr  6 09:33:55 2022]
+Finished job 146.
+1 of 37 steps (3%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 144.
+2 of 37 steps (5%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 139.
+3 of 37 steps (8%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 127.
+4 of 37 steps (11%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 123.
+5 of 37 steps (14%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 119.
+6 of 37 steps (16%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 121.
+7 of 37 steps (19%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 113.
+8 of 37 steps (22%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 132.
+9 of 37 steps (24%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 124.
+10 of 37 steps (27%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 148.
+11 of 37 steps (30%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 129.
+12 of 37 steps (32%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 117.
+13 of 37 steps (35%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 141.
+14 of 37 steps (38%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 128.
+15 of 37 steps (41%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 140.
+16 of 37 steps (43%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 136.
+17 of 37 steps (46%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 120.
+18 of 37 steps (49%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 130.
+19 of 37 steps (51%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 115.
+20 of 37 steps (54%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 135.
+21 of 37 steps (57%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 145.
+22 of 37 steps (59%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 138.
+23 of 37 steps (62%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 118.
+24 of 37 steps (65%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 149.
+25 of 37 steps (68%) done
+[Wed Apr  6 09:33:55 2022]
+Finished job 143.
+26 of 37 steps (70%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 142.
+27 of 37 steps (73%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 126.
+28 of 37 steps (76%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 122.
+29 of 37 steps (78%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 116.
+30 of 37 steps (81%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 134.
+31 of 37 steps (84%) done
+[Wed Apr  6 09:33:56 2022]
+Finished job 114.
+32 of 37 steps (86%) done
+[Wed Apr  6 09:33:57 2022]
+Finished job 125.
+33 of 37 steps (89%) done
+[Wed Apr  6 09:33:57 2022]
+Finished job 133.
+34 of 37 steps (92%) done
+[Wed Apr  6 09:33:57 2022]
+Finished job 131.
+35 of 37 steps (95%) done
+[Wed Apr  6 09:34:00 2022]
+Finished job 137.
+36 of 37 steps (97%) done
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T093344.683324.snakemake.log

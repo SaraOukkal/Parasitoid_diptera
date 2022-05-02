@@ -1,0 +1,1063 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	40	Define_loci
+	40	Extract_loci
+	31	Homology_analysis
+	40	Translate_loci
+	152
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_016617805.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_016617805.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 41
+    wildcards: Genome_ID=GCF_016617805.1
+
+Submitted job 41 with external jobid 'Submitted batch job 3591512'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 42
+    wildcards: Genome_ID=GCA_001014415.1
+
+Submitted job 42 with external jobid 'Submitted batch job 3591513'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 29
+    wildcards: Genome_ID=GCA_920104205.1
+
+Submitted job 29 with external jobid 'Submitted batch job 3591514'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_004302925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 15
+    wildcards: Genome_ID=GCA_004302925.1
+
+Submitted job 15 with external jobid 'Submitted batch job 3591515'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_905231855.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2.m8
+    jobid: 22
+    wildcards: Genome_ID=GCA_905231855.2
+
+Submitted job 22 with external jobid 'Submitted batch job 3591516'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015175.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 8
+    wildcards: Genome_ID=GCA_001015175.1
+
+Submitted job 8 with external jobid 'Submitted batch job 3591517'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_002237135.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 36
+    wildcards: Genome_ID=GCF_002237135.1
+
+Submitted job 36 with external jobid 'Submitted batch job 3591518'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_005959815.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 16
+    wildcards: Genome_ID=GCA_005959815.1
+
+Submitted job 16 with external jobid 'Submitted batch job 3591519'.
+
+[Fri Apr  1 10:29:16 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 30
+    wildcards: Genome_ID=GCA_920105625.1
+
+Submitted job 30 with external jobid 'Submitted batch job 3591520'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916050605.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/result_mmseqs2.m8
+    jobid: 27
+    wildcards: Genome_ID=GCA_916050605.2
+
+Submitted job 27 with external jobid 'Submitted batch job 3591521'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017275.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 9
+    wildcards: Genome_ID=GCA_001017275.1
+
+Submitted job 9 with external jobid 'Submitted batch job 3591522'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_009650485.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 37
+    wildcards: Genome_ID=GCF_009650485.1
+
+Submitted job 37 with external jobid 'Submitted batch job 3591523'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 23
+    wildcards: Genome_ID=GCA_907269105.1
+
+Submitted job 23 with external jobid 'Submitted batch job 3591524'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 3
+    wildcards: Genome_ID=GCA_001014575.1
+
+Submitted job 3 with external jobid 'Submitted batch job 3591525'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_014858695.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 17
+    wildcards: Genome_ID=GCA_014858695.1
+
+Submitted job 17 with external jobid 'Submitted batch job 3591526'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_922984085.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 31
+    wildcards: Genome_ID=GCA_922984085.1
+
+Submitted job 31 with external jobid 'Submitted batch job 3591527'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017515.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 10
+    wildcards: Genome_ID=GCA_001017515.1
+
+Submitted job 10 with external jobid 'Submitted batch job 3591528'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 24
+    wildcards: Genome_ID=GCA_914767635.1
+
+Submitted job 24 with external jobid 'Submitted batch job 3591529'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013340165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 38
+    wildcards: Genome_ID=GCF_013340165.1
+
+Submitted job 38 with external jobid 'Submitted batch job 3591530'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014675.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 4
+    wildcards: Genome_ID=GCA_001014675.1
+
+Submitted job 4 with external jobid 'Submitted batch job 3591531'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_017309665.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 18
+    wildcards: Genome_ID=GCA_017309665.1
+
+Submitted job 18 with external jobid 'Submitted batch job 3591532'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000001215.4.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/result_mmseqs2.m8
+    jobid: 32
+    wildcards: Genome_ID=GCF_000001215.4
+
+Submitted job 32 with external jobid 'Submitted batch job 3591533'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 60
+    wildcards: Genome_ID=GCA_020466095.1
+
+Submitted job 60 with external jobid 'Submitted batch job 3591534'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 74
+    wildcards: Genome_ID=GCF_000699065.1
+
+Submitted job 74 with external jobid 'Submitted batch job 3591535'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 46
+    wildcards: Genome_ID=GCA_001015075.1
+
+Submitted job 46 with external jobid 'Submitted batch job 3591536'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 25
+    wildcards: Genome_ID=GCA_914767935.1
+
+Submitted job 25 with external jobid 'Submitted batch job 3591537'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001735545.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 11
+    wildcards: Genome_ID=GCA_001735545.1
+
+Submitted job 11 with external jobid 'Submitted batch job 3591538'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 39
+    wildcards: Genome_ID=GCF_013731165.1
+
+Submitted job 39 with external jobid 'Submitted batch job 3591539'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 5
+    wildcards: Genome_ID=GCA_001014935.1
+
+Submitted job 5 with external jobid 'Submitted batch job 3591540'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 19
+    wildcards: Genome_ID=GCA_019455685.1
+
+Submitted job 19 with external jobid 'Submitted batch job 3591541'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000347755.3.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/result_mmseqs2.m8
+    jobid: 33
+    wildcards: Genome_ID=GCF_000347755.3
+
+Submitted job 33 with external jobid 'Submitted batch job 3591542'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 61
+    wildcards: Genome_ID=GCA_021234595.1
+
+Submitted job 61 with external jobid 'Submitted batch job 3591543'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 75
+    wildcards: Genome_ID=GCF_001015335.1
+
+Submitted job 75 with external jobid 'Submitted batch job 3591544'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 47
+    wildcards: Genome_ID=GCA_001015115.1
+
+Submitted job 47 with external jobid 'Submitted batch job 3591545'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003055125.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 12
+    wildcards: Genome_ID=GCA_003055125.1
+
+Submitted job 12 with external jobid 'Submitted batch job 3591546'.
+
+[Fri Apr  1 10:29:17 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916048285.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/result_mmseqs2.m8
+    jobid: 26
+    wildcards: Genome_ID=GCA_916048285.2
+
+Submitted job 26 with external jobid 'Submitted batch job 3591547'.
+
+[Fri Apr  1 10:29:18 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 54
+    wildcards: Genome_ID=GCA_003952975.1
+
+Submitted job 54 with external jobid 'Submitted batch job 3591548'.
+
+[Fri Apr  1 10:29:18 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 68
+    wildcards: Genome_ID=GCA_917880715.2
+
+Submitted job 68 with external jobid 'Submitted batch job 3591549'.
+
+[Fri Apr  1 10:29:18 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_014805625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 40
+    wildcards: Genome_ID=GCF_014805625.1
+
+Submitted job 40 with external jobid 'Submitted batch job 3591550'.
+
+[Fri Apr  1 10:29:18 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 13
+    wildcards: Genome_ID=GCA_003123925.1
+
+Submitted job 13 with external jobid 'Submitted batch job 3591551'.
+[Fri Apr  1 10:29:26 2022]
+Error in rule Define_loci:
+    jobid: 42
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591513
+
+Error executing rule Define_loci on cluster (jobid: 42, external: Submitted batch job 3591513, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.42.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:40 2022]
+Error in rule Homology_analysis:
+    jobid: 29
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/GCA_920104205.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/GCA_920104205.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/GCA_920104205.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920104205.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591514
+
+Error executing rule Homology_analysis on cluster (jobid: 29, external: Submitted batch job 3591514, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.29.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:40 2022]
+Error in rule Homology_analysis:
+    jobid: 15
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_004302925.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/GCA_004302925.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/GCA_004302925.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/GCA_004302925.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_004302925.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591515
+
+Error executing rule Homology_analysis on cluster (jobid: 15, external: Submitted batch job 3591515, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.15.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:40 2022]
+Error in rule Homology_analysis:
+    jobid: 22
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_905231855.2.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/GCA_905231855.2_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/GCA_905231855.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/GCA_905231855.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_905231855.2/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591516
+
+Error executing rule Homology_analysis on cluster (jobid: 22, external: Submitted batch job 3591516, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.22.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:40 2022]
+Error in rule Homology_analysis:
+    jobid: 8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015175.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/GCA_001015175.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/GCA_001015175.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/GCA_001015175.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015175.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591517
+
+Error executing rule Homology_analysis on cluster (jobid: 8, external: Submitted batch job 3591517, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:53 2022]
+Error in rule Homology_analysis:
+    jobid: 36
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_002237135.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/GCF_002237135.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/GCF_002237135.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/GCF_002237135.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_002237135.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591518
+
+Error executing rule Homology_analysis on cluster (jobid: 36, external: Submitted batch job 3591518, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.36.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:29:53 2022]
+Error in rule Homology_analysis:
+    jobid: 16
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_005959815.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/GCA_005959815.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/GCA_005959815.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/GCA_005959815.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_005959815.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591519
+
+Error executing rule Homology_analysis on cluster (jobid: 16, external: Submitted batch job 3591519, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.16.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:06 2022]
+Error in rule Homology_analysis:
+    jobid: 30
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/GCA_920105625.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/GCA_920105625.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/GCA_920105625.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_920105625.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591520
+
+Error executing rule Homology_analysis on cluster (jobid: 30, external: Submitted batch job 3591520, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.30.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:06 2022]
+Error in rule Homology_analysis:
+    jobid: 27
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916050605.2.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/GCA_916050605.2_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/GCA_916050605.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/GCA_916050605.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916050605.2/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591521
+
+Error executing rule Homology_analysis on cluster (jobid: 27, external: Submitted batch job 3591521, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.27.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:06 2022]
+Error in rule Homology_analysis:
+    jobid: 9
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017275.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/GCA_001017275.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/GCA_001017275.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/GCA_001017275.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017275.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591522
+
+Error executing rule Homology_analysis on cluster (jobid: 9, external: Submitted batch job 3591522, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:06 2022]
+Error in rule Homology_analysis:
+    jobid: 37
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_009650485.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/GCF_009650485.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/GCF_009650485.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/GCF_009650485.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_009650485.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591523
+
+Error executing rule Homology_analysis on cluster (jobid: 37, external: Submitted batch job 3591523, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.37.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:19 2022]
+Error in rule Homology_analysis:
+    jobid: 23
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/GCA_907269105.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/GCA_907269105.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/GCA_907269105.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_907269105.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591524
+
+Error executing rule Homology_analysis on cluster (jobid: 23, external: Submitted batch job 3591524, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.23.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:19 2022]
+Error in rule Homology_analysis:
+    jobid: 3
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014575.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/GCA_001014575.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/GCA_001014575.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/GCA_001014575.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014575.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591525
+
+Error executing rule Homology_analysis on cluster (jobid: 3, external: Submitted batch job 3591525, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:19 2022]
+Error in rule Homology_analysis:
+    jobid: 17
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_014858695.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/GCA_014858695.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/GCA_014858695.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/GCA_014858695.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_014858695.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591526
+
+Error executing rule Homology_analysis on cluster (jobid: 17, external: Submitted batch job 3591526, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.17.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:19 2022]
+Error in rule Homology_analysis:
+    jobid: 31
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_922984085.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/GCA_922984085.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/GCA_922984085.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/GCA_922984085.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_922984085.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591527
+
+Error executing rule Homology_analysis on cluster (jobid: 31, external: Submitted batch job 3591527, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.31.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:31 2022]
+Error in rule Homology_analysis:
+    jobid: 10
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017515.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/GCA_001017515.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/GCA_001017515.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/GCA_001017515.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001017515.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591528
+
+Error executing rule Homology_analysis on cluster (jobid: 10, external: Submitted batch job 3591528, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:31 2022]
+Error in rule Homology_analysis:
+    jobid: 38
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013340165.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/GCF_013340165.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/GCF_013340165.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/GCF_013340165.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013340165.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591530
+
+Error executing rule Homology_analysis on cluster (jobid: 38, external: Submitted batch job 3591530, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.38.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:31 2022]
+Error in rule Homology_analysis:
+    jobid: 4
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014675.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/GCA_001014675.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/GCA_001014675.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/GCA_001014675.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014675.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591531
+
+Error executing rule Homology_analysis on cluster (jobid: 4, external: Submitted batch job 3591531, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:31 2022]
+Error in rule Define_loci:
+    jobid: 46
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591536
+
+Error executing rule Define_loci on cluster (jobid: 46, external: Submitted batch job 3591536, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.46.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:43 2022]
+Error in rule Homology_analysis:
+    jobid: 24
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/GCA_914767635.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/GCA_914767635.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/GCA_914767635.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767635.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591529
+
+Error executing rule Homology_analysis on cluster (jobid: 24, external: Submitted batch job 3591529, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.24.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:43 2022]
+Error in rule Homology_analysis:
+    jobid: 18
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_017309665.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/GCA_017309665.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/GCA_017309665.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/GCA_017309665.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_017309665.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591532
+
+Error executing rule Homology_analysis on cluster (jobid: 18, external: Submitted batch job 3591532, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.18.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:43 2022]
+Error in rule Homology_analysis:
+    jobid: 32
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000001215.4.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/GCF_000001215.4_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/GCF_000001215.4_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/GCF_000001215.4_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000001215.4/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591533
+
+Error executing rule Homology_analysis on cluster (jobid: 32, external: Submitted batch job 3591533, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:43 2022]
+Error in rule Define_loci:
+    jobid: 74
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591535
+
+Error executing rule Define_loci on cluster (jobid: 74, external: Submitted batch job 3591535, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.74.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:55 2022]
+Error in rule Define_loci:
+    jobid: 60
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591534
+
+Error executing rule Define_loci on cluster (jobid: 60, external: Submitted batch job 3591534, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.60.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:30:55 2022]
+Error in rule Homology_analysis:
+    jobid: 5
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014935.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/GCA_001014935.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/GCA_001014935.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/GCA_001014935.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014935.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591540
+
+Error executing rule Homology_analysis on cluster (jobid: 5, external: Submitted batch job 3591540, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:07 2022]
+Error in rule Homology_analysis:
+    jobid: 11
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001735545.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/GCA_001735545.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/GCA_001735545.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/GCA_001735545.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001735545.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591538
+
+Error executing rule Homology_analysis on cluster (jobid: 11, external: Submitted batch job 3591538, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:07 2022]
+Error in rule Define_loci:
+    jobid: 75
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_001015335.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591544
+
+Error executing rule Define_loci on cluster (jobid: 75, external: Submitted batch job 3591544, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.75.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:07 2022]
+Error in rule Define_loci:
+    jobid: 47
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015115.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591545
+
+Error executing rule Define_loci on cluster (jobid: 47, external: Submitted batch job 3591545, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.47.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:18 2022]
+Error in rule Homology_analysis:
+    jobid: 25
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/GCA_914767935.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/GCA_914767935.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/GCA_914767935.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_914767935.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591537
+
+Error executing rule Homology_analysis on cluster (jobid: 25, external: Submitted batch job 3591537, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.25.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:18 2022]
+Error in rule Homology_analysis:
+    jobid: 33
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000347755.3.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/GCF_000347755.3_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/GCF_000347755.3_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/GCF_000347755.3_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000347755.3/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591542
+
+Error executing rule Homology_analysis on cluster (jobid: 33, external: Submitted batch job 3591542, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.33.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:18 2022]
+Error in rule Define_loci:
+    jobid: 61
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_021234595.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591543
+
+Error executing rule Define_loci on cluster (jobid: 61, external: Submitted batch job 3591543, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.61.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:29 2022]
+Error in rule Homology_analysis:
+    jobid: 39
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/GCF_013731165.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/GCF_013731165.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/GCF_013731165.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_013731165.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591539
+
+Error executing rule Homology_analysis on cluster (jobid: 39, external: Submitted batch job 3591539, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.39.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:29 2022]
+Error in rule Homology_analysis:
+    jobid: 19
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/GCA_019455685.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/GCA_019455685.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/GCA_019455685.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_019455685.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591541
+
+Error executing rule Homology_analysis on cluster (jobid: 19, external: Submitted batch job 3591541, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.19.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:39 2022]
+Error in rule Homology_analysis:
+    jobid: 12
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003055125.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/GCA_003055125.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/GCA_003055125.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/GCA_003055125.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003055125.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591546
+
+Error executing rule Homology_analysis on cluster (jobid: 12, external: Submitted batch job 3591546, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.12.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:59 2022]
+Error in rule Homology_analysis:
+    jobid: 26
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916048285.2.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/GCA_916048285.2_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/GCA_916048285.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/GCA_916048285.2_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_916048285.2/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591547
+
+Error executing rule Homology_analysis on cluster (jobid: 26, external: Submitted batch job 3591547, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.26.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:59 2022]
+Error in rule Define_loci:
+    jobid: 54
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591548
+
+Error executing rule Define_loci on cluster (jobid: 54, external: Submitted batch job 3591548, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.54.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:59 2022]
+Error in rule Define_loci:
+    jobid: 68
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Make_change_strand_mmseqs.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2.m8 -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_V.m8 -t virus 
+		/beegfs/data/soft/R-3.5.2/bin/Rscript /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Overlapping_sequences_BUSCO_Viral_loci2.R /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_V.m8 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591549
+
+Error executing rule Define_loci on cluster (jobid: 68, external: Submitted batch job 3591549, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Define_loci.68.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:31:59 2022]
+Error in rule Homology_analysis:
+    jobid: 40
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_014805625.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/GCF_014805625.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/GCF_014805625.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/GCF_014805625.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_014805625.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591550
+
+Error executing rule Homology_analysis on cluster (jobid: 40, external: Submitted batch job 3591550, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.40.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 10:32:09 2022]
+Error in rule Homology_analysis:
+    jobid: 13
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/GCA_003123925.1_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/GCA_003123925.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/GCA_003123925.1_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003123925.1/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3591551
+
+Error executing rule Homology_analysis on cluster (jobid: 13, external: Submitted batch job 3591551, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.144swldm/snakejob.Homology_analysis.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Fri Apr  1 15:37:53 2022]
+Finished job 41.
+1 of 152 steps (0.66%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-01T102914.044023.snakemake.log

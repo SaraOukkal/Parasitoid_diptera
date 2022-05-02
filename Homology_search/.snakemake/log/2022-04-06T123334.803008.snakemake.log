@@ -1,0 +1,122 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	Filter_loci
+	1	all
+	2
+
+[Wed Apr  6 12:33:39 2022]
+rule Filter_loci:
+    input: /beegfs/data/bguinet/these/NR_db, /beegfs/data/bguinet/taxadb2/taxadb.sqlite, /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER.faa
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+    jobid: 162
+
+Submitted job 162 with external jobid 'Submitted batch job 3614521'.
+[Wed Apr  6 12:33:49 2022]
+Error in rule Filter_loci:
+    jobid: 162
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+    shell:
+        
+		#Add viral protein sequences within the file with all virus candidate loci
+		cat /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna_IVSPER.faa  >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa	
+		#Put all Fasta sequence into one unique file :
+		cat                   0
+0   GCA_001014415.1
+1   GCA_001014575.1
+2   GCA_001014675.1
+3   GCA_001014935.1
+4   GCA_001015075.1
+5   GCA_001015115.1
+6   GCA_001015175.1
+7   GCA_001017275.1
+8   GCA_001017515.1
+9   GCA_001735545.1
+10  GCA_003055125.1
+11  GCA_003123925.1
+12  GCA_003952975.1
+13  GCA_004302925.1
+14  GCA_005959815.1
+15  GCA_014858695.1
+16  GCA_017309665.1
+17  GCA_019455685.1
+18  GCA_020466095.1
+19  GCA_021234595.1
+20  GCA_905231855.2
+21  GCA_907269105.1
+22  GCA_914767635.1
+23  GCA_914767935.1
+24  GCA_916048285.2
+25  GCA_916050605.2
+26  GCA_917880715.2
+27  GCA_920104205.1
+28  GCA_920105625.1
+29  GCA_922984085.1
+30  GCF_000001215.4
+31  GCF_000347755.3
+32  GCF_000699065.1
+33  GCF_001015335.1
+34  GCF_002237135.1
+35  GCF_009650485.1
+36  GCF_013340165.1
+37  GCF_013731165.1
+38  GCF_014805625.1
+39  GCF_016617805.1 | while read line; do cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/${line}/Fasta_viral_loci1.fna >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna ; done 
+		cat                   0
+0   GCA_001014415.1
+1   GCA_001014575.1
+2   GCA_001014675.1
+3   GCA_001014935.1
+4   GCA_001015075.1
+5   GCA_001015115.1
+6   GCA_001015175.1
+7   GCA_001017275.1
+8   GCA_001017515.1
+9   GCA_001735545.1
+10  GCA_003055125.1
+11  GCA_003123925.1
+12  GCA_003952975.1
+13  GCA_004302925.1
+14  GCA_005959815.1
+15  GCA_014858695.1
+16  GCA_017309665.1
+17  GCA_019455685.1
+18  GCA_020466095.1
+19  GCA_021234595.1
+20  GCA_905231855.2
+21  GCA_907269105.1
+22  GCA_914767635.1
+23  GCA_914767935.1
+24  GCA_916048285.2
+25  GCA_916050605.2
+26  GCA_917880715.2
+27  GCA_920104205.1
+28  GCA_920105625.1
+29  GCA_922984085.1
+30  GCF_000001215.4
+31  GCF_000347755.3
+32  GCF_000699065.1
+33  GCF_001015335.1
+34  GCF_002237135.1
+35  GCF_009650485.1
+36  GCF_013340165.1
+37  GCF_013731165.1
+38  GCF_014805625.1
+39  GCF_016617805.1 | while read line; do cat /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/${line}/Fasta_viral_loci.faa >> /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa ; done 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db /beegfs/data/bguinet/these/NR_db  /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_tpm 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,tcov' /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db /beegfs/data/bguinet/these/NR_db /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8 -s 7 --threads 20
+		#Add taxonomic information about hit targets: 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Add_taxid_info.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8 -blst Mmseqs2 -d /beegfs/data/bguinet/taxadb2/taxadb.sqlite -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8
+		#Filter mmseqs results using taxonomic information and filter fasta nuc and amino files : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Filter_loci_with_NR.py -Nr /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8 -fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna -faa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8 -ofna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna -ofaa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3614521
+
+Error executing rule Filter_loci on cluster (jobid: 162, external: Submitted batch job 3614521, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.g5pw1fr8/snakejob.Filter_loci.162.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T123334.803008.snakemake.log

@@ -1,0 +1,533 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	37	Define_loci
+	37	Extract_translate_loci
+	75
+
+[Thu Apr  7 11:37:56 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 62
+    wildcards: Genome_ID=leskia_janzen27
+
+Submitted job 62 with external jobid 'Submitted batch job 3617325'.
+
+[Thu Apr  7 11:37:56 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 48
+    wildcards: Genome_ID=houghia_brevipilosa
+
+Submitted job 48 with external jobid 'Submitted batch job 3617326'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 70
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+Submitted job 70 with external jobid 'Submitted batch job 3617327'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 56
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+Submitted job 56 with external jobid 'Submitted batch job 3617328'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 42
+    wildcards: Genome_ID=genea_wood01
+
+Submitted job 42 with external jobid 'Submitted batch job 3617329'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 49
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+Submitted job 49 with external jobid 'Submitted batch job 3617330'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 63
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+Submitted job 63 with external jobid 'Submitted batch job 3617331'.
+
+[Thu Apr  7 11:37:57 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 57
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+Submitted job 57 with external jobid 'Submitted batch job 3617332'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 71
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+Submitted job 71 with external jobid 'Submitted batch job 3617333'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 43
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+Submitted job 43 with external jobid 'Submitted batch job 3617334'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 50
+    wildcards: Genome_ID=houghia_graciloides
+
+Submitted job 50 with external jobid 'Submitted batch job 3617335'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 64
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+Submitted job 64 with external jobid 'Submitted batch job 3617336'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 44
+    wildcards: Genome_ID=genea_wood03dhj01
+
+Submitted job 44 with external jobid 'Submitted batch job 3617337'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 58
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 58 with external jobid 'Submitted batch job 3617338'.
+
+[Thu Apr  7 11:37:58 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 72
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 72 with external jobid 'Submitted batch job 3617339'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 69
+    wildcards: Genome_ID=chrysotachina_wood01
+
+Submitted job 69 with external jobid 'Submitted batch job 3617340'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 51
+    wildcards: Genome_ID=austrophorocera_wood05
+
+Submitted job 51 with external jobid 'Submitted batch job 3617341'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 65
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+Submitted job 65 with external jobid 'Submitted batch job 3617342'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 45
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+Submitted job 45 with external jobid 'Submitted batch job 3617343'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 59
+    wildcards: Genome_ID=calolydella_timjamesi
+
+Submitted job 59 with external jobid 'Submitted batch job 3617344'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 73
+    wildcards: Genome_ID=cordyligaster_capellii
+
+Submitted job 73 with external jobid 'Submitted batch job 3617345'.
+
+[Thu Apr  7 11:37:59 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 52
+    wildcards: Genome_ID=houghia_pallida
+
+Submitted job 52 with external jobid 'Submitted batch job 3617346'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 66
+    wildcards: Genome_ID=lixophaga_wood06
+
+Submitted job 66 with external jobid 'Submitted batch job 3617347'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 46
+    wildcards: Genome_ID=houghia_bivittata
+
+Submitted job 46 with external jobid 'Submitted batch job 3617348'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 60
+    wildcards: Genome_ID=leschenaultia_wood15
+
+Submitted job 60 with external jobid 'Submitted batch job 3617349'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 74
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+Submitted job 74 with external jobid 'Submitted batch job 3617350'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 53
+    wildcards: Genome_ID=belvosia_woodley07g
+
+Submitted job 53 with external jobid 'Submitted batch job 3617351'.
+
+[Thu Apr  7 11:38:00 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 39
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+Submitted job 39 with external jobid 'Submitted batch job 3617352'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 67
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+Submitted job 67 with external jobid 'Submitted batch job 3617353'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 55
+    wildcards: Genome_ID=belvosia_woodley10
+
+Submitted job 55 with external jobid 'Submitted batch job 3617354'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 47
+    wildcards: Genome_ID=argyrophylax_wood05
+
+Submitted job 47 with external jobid 'Submitted batch job 3617355'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 61
+    wildcards: Genome_ID=campylocheta_wood03
+
+Submitted job 61 with external jobid 'Submitted batch job 3617356'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 75
+    wildcards: Genome_ID=drino_wood06dhj01
+
+Submitted job 75 with external jobid 'Submitted batch job 3617357'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 40
+    wildcards: Genome_ID=drino_wood06dhj05
+
+Submitted job 40 with external jobid 'Submitted batch job 3617358'.
+
+[Thu Apr  7 11:38:01 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 54
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+Submitted job 54 with external jobid 'Submitted batch job 3617359'.
+
+[Thu Apr  7 11:38:02 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 68
+    wildcards: Genome_ID=lixophaga_wood09
+
+Submitted job 68 with external jobid 'Submitted batch job 3617360'.
+
+[Thu Apr  7 11:38:02 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 41
+    wildcards: Genome_ID=archytas_wood02
+
+Submitted job 41 with external jobid 'Submitted batch job 3617361'.
+[Thu Apr  7 11:47:52 2022]
+Finished job 62.
+1 of 75 steps (1%) done
+
+[Thu Apr  7 11:47:52 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_janzen27.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+    jobid: 99
+    wildcards: Genome_ID=leskia_janzen27
+
+Submitted job 99 with external jobid 'Submitted batch job 3617462'.
+[Thu Apr  7 11:48:32 2022]
+Finished job 48.
+2 of 75 steps (3%) done
+
+[Thu Apr  7 11:48:32 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_brevipilosa.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+    jobid: 85
+    wildcards: Genome_ID=houghia_brevipilosa
+
+Submitted job 85 with external jobid 'Submitted batch job 3617463'.
+[Thu Apr  7 11:48:45 2022]
+Finished job 70.
+3 of 75 steps (4%) done
+
+[Thu Apr  7 11:48:45 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_rafaelidhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+    jobid: 107
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+Submitted job 107 with external jobid 'Submitted batch job 3617464'.
+[Thu Apr  7 11:48:58 2022]
+Finished job 56.
+4 of 75 steps (5%) done
+
+[Thu Apr  7 11:48:58 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_wood11.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+    jobid: 93
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+Submitted job 93 with external jobid 'Submitted batch job 3617465'.
+[Thu Apr  7 11:49:24 2022]
+Finished job 42.
+5 of 75 steps (7%) done
+
+[Thu Apr  7 11:49:24 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+    jobid: 79
+    wildcards: Genome_ID=genea_wood01
+
+Submitted job 79 with external jobid 'Submitted batch job 3617466'.
+[Thu Apr  7 11:49:37 2022]
+Finished job 49.
+6 of 75 steps (8%) done
+
+[Thu Apr  7 11:49:37 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/atacta_brasiliensisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+    jobid: 86
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+Submitted job 86 with external jobid 'Submitted batch job 3617467'.
+[Thu Apr  7 11:50:16 2022]
+Finished job 63.
+7 of 75 steps (9%) done
+
+[Thu Apr  7 11:50:16 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chetogena_scutellarisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+    jobid: 100
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+[Thu Apr  7 11:50:16 2022]
+Finished job 57.
+8 of 75 steps (11%) done
+Submitted job 100 with external jobid 'Submitted batch job 3617468'.
+
+[Thu Apr  7 11:50:16 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_erasmocoronadoi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+    jobid: 94
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+Submitted job 94 with external jobid 'Submitted batch job 3617469'.
+[Thu Apr  7 11:50:55 2022]
+Finished job 71.
+9 of 75 steps (12%) done
+
+[Thu Apr  7 11:50:55 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood02dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+    jobid: 108
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+[Thu Apr  7 11:50:55 2022]
+Finished job 43.
+10 of 75 steps (13%) done
+Submitted job 108 with external jobid 'Submitted batch job 3617470'.
+
+[Thu Apr  7 11:50:55 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrochaetona_cubanadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+    jobid: 80
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+Submitted job 80 with external jobid 'Submitted batch job 3617471'.
+[Thu Apr  7 11:51:22 2022]
+Finished job 50.
+11 of 75 steps (15%) done
+
+[Thu Apr  7 11:51:22 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_graciloides.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+    jobid: 87
+    wildcards: Genome_ID=houghia_graciloides
+
+[Thu Apr  7 11:51:22 2022]
+Finished job 64.
+12 of 75 steps (16%) done
+Submitted job 87 with external jobid 'Submitted batch job 3617472'.
+
+[Thu Apr  7 11:51:22 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_wood01dhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+    jobid: 101
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+Submitted job 101 with external jobid 'Submitted batch job 3617473'.
+[Thu Apr  7 11:52:01 2022]
+Finished job 44.
+13 of 75 steps (17%) done
+
+[Thu Apr  7 11:52:01 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+    jobid: 81
+    wildcards: Genome_ID=genea_wood03dhj01
+
+[Thu Apr  7 11:52:01 2022]
+Finished job 58.
+14 of 75 steps (19%) done
+Submitted job 81 with external jobid 'Submitted batch job 3617474'.
+
+[Thu Apr  7 11:52:01 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+    jobid: 95
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 95 with external jobid 'Submitted batch job 3617475'.
+[Thu Apr  7 11:52:27 2022]
+Finished job 72.
+15 of 75 steps (20%) done
+
+[Thu Apr  7 11:52:27 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+    jobid: 109
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 109 with external jobid 'Submitted batch job 3617476'.
+[Thu Apr  7 11:52:40 2022]
+Finished job 69.
+16 of 75 steps (21%) done
+
+[Thu Apr  7 11:52:40 2022]
+rule Extract_translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+    jobid: 106
+    wildcards: Genome_ID=chrysotachina_wood01
+
+Submitted job 106 with external jobid 'Submitted batch job 3617477'.

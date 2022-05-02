@@ -1,0 +1,46 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	Filter_loci
+	1	NR_homology
+	1	all
+	3
+
+[Wed Apr 13 13:13:49 2022]
+rule NR_homology:
+    input: /beegfs/data/bguinet/these/NR_db
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    jobid: 122
+
+Submitted job 122 with external jobid 'Submitted batch job 3626765'.
+[Sat Apr 16 18:05:41 2022]
+Finished job 122.
+1 of 3 steps (33%) done
+
+[Sat Apr 16 18:05:41 2022]
+rule Filter_loci:
+    input: /beegfs/data/bguinet/taxadb2/taxadb.sqlite, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+    jobid: 123
+
+Submitted job 123 with external jobid 'Submitted batch job 3636493'.
+[Sun Apr 17 01:45:50 2022]
+Error in rule Filter_loci:
+    jobid: 123
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+    shell:
+        
+		#Add taxonomic information about hit targets: 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Add_taxid_info.py -b /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8 -blst Mmseqs2 -d /beegfs/data/bguinet/taxadb2/taxadb.sqlite -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8
+		#Filter mmseqs results using taxonomic information and filter fasta nuc and amino files : 
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Filter_loci_with_NR.py -Nr /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr_taxid.m8 -fna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.fna -faa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci.faa -o /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_filtered.m8 -ofna /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.fna -ofaa /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Fasta_viral_loci_filtered.faa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3636493
+
+Error executing rule Filter_loci on cluster (jobid: 123, external: Submitted batch job 3636493, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.m37n1nbd/snakejob.Filter_loci.123.sh). For error details see the cluster log and the log files of the involved rule(s).
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-13T131345.020760.snakemake.log

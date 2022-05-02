@@ -1,0 +1,599 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	37	BUSCO
+	37	Sum
+	1	all
+	75
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 20
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 20 with external jobid 'Submitted batch job 3490437'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 6
+    wildcards: Genome_ID=genea_wood03dhj01
+
+Submitted job 6 with external jobid 'Submitted batch job 3490438'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 34
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 34 with external jobid 'Submitted batch job 3490439'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood06.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/lixophaga_wood06/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 28
+    wildcards: Genome_ID=lixophaga_wood06
+
+Submitted job 28 with external jobid 'Submitted batch job 3490440'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_pallida.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 14
+    wildcards: Genome_ID=houghia_pallida
+
+Submitted job 14 with external jobid 'Submitted batch job 3490441'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_albincisadhj04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 7
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+Submitted job 7 with external jobid 'Submitted batch job 3490442'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_timjamesi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/calolydella_timjamesi/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 21
+    wildcards: Genome_ID=calolydella_timjamesi
+
+Submitted job 21 with external jobid 'Submitted batch job 3490443'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/cordyligaster_capellii.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 35
+    wildcards: Genome_ID=cordyligaster_capellii
+
+Submitted job 35 with external jobid 'Submitted batch job 3490444'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/chrysoexorista_wood04/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 29
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+Submitted job 29 with external jobid 'Submitted batch job 3490445'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/aplomyopsis_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/aplomyopsis_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 1
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+Submitted job 1 with external jobid 'Submitted batch job 3490446'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley07g.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/belvosia_woodley07g/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 15
+    wildcards: Genome_ID=belvosia_woodley07g
+
+Submitted job 15 with external jobid 'Submitted batch job 3490447'.
+
+[Mon Mar 21 10:41:16 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_bivittata.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_bivittata/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 8
+    wildcards: Genome_ID=houghia_bivittata
+
+Submitted job 8 with external jobid 'Submitted batch job 3490448'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leschenaultia_wood15.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/leschenaultia_wood15/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 22
+    wildcards: Genome_ID=leschenaultia_wood15
+
+Submitted job 22 with external jobid 'Submitted batch job 3490449'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/zizyphomyia_argutadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/zizyphomyia_argutadhj02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 36
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+Submitted job 36 with external jobid 'Submitted batch job 3490450'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/archytas_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/archytas_wood02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 3
+    wildcards: Genome_ID=archytas_wood02
+
+Submitted job 3 with external jobid 'Submitted batch job 3490451'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_virilis.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/hyphantrophaga_virilis/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 16
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+Submitted job 16 with external jobid 'Submitted batch job 3490452'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood09.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/lixophaga_wood09/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 30
+    wildcards: Genome_ID=lixophaga_wood09
+
+Submitted job 30 with external jobid 'Submitted batch job 3490453'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_wood05/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 9
+    wildcards: Genome_ID=argyrophylax_wood05
+
+Submitted job 9 with external jobid 'Submitted batch job 3490454'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/campylocheta_wood03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/campylocheta_wood03/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 23
+    wildcards: Genome_ID=campylocheta_wood03
+
+Submitted job 23 with external jobid 'Submitted batch job 3490455'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/drino_wood06dhj01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 37
+    wildcards: Genome_ID=drino_wood06dhj01
+
+Submitted job 37 with external jobid 'Submitted batch job 3490456'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/drino_wood06dhj05/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 2
+    wildcards: Genome_ID=drino_wood06dhj05
+
+Submitted job 2 with external jobid 'Submitted batch job 3490457'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley10.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/belvosia_woodley10/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 17
+    wildcards: Genome_ID=belvosia_woodley10
+
+Submitted job 17 with external jobid 'Submitted batch job 3490458'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/chrysotachina_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 31
+    wildcards: Genome_ID=chrysotachina_wood01
+
+Submitted job 31 with external jobid 'Submitted batch job 3490459'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_brevipilosa.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_brevipilosa/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 10
+    wildcards: Genome_ID=houghia_brevipilosa
+
+Submitted job 10 with external jobid 'Submitted batch job 3490460'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_janzen27.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/leskia_janzen27/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 24
+    wildcards: Genome_ID=leskia_janzen27
+
+Submitted job 24 with external jobid 'Submitted batch job 3490461'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 4
+    wildcards: Genome_ID=genea_wood01
+
+Submitted job 4 with external jobid 'Submitted batch job 3490462'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_wood11.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/hyphantrophaga_wood11/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 18
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+Submitted job 18 with external jobid 'Submitted batch job 3490463'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_rafaelidhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_rafaelidhj03/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 32
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+Submitted job 32 with external jobid 'Submitted batch job 3490464'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/atacta_brasiliensisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/atacta_brasiliensisdhj01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 11
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+Submitted job 11 with external jobid 'Submitted batch job 3490465'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chetogena_scutellarisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/chetogena_scutellarisdhj01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 25
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+Submitted job 25 with external jobid 'Submitted batch job 3490466'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrochaetona_cubanadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrochaetona_cubanadhj02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 5
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+Submitted job 5 with external jobid 'Submitted batch job 3490467'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_erasmocoronadoi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/calolydella_erasmocoronadoi/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 19
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+Submitted job 19 with external jobid 'Submitted batch job 3490468'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood02dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/chrysotachina_wood02dhj02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 33
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+Submitted job 33 with external jobid 'Submitted batch job 3490469'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_graciloides.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_graciloides/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 12
+    wildcards: Genome_ID=houghia_graciloides
+
+Submitted job 12 with external jobid 'Submitted batch job 3490470'.
+
+[Mon Mar 21 10:41:17 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_wood01dhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/leskia_wood01dhj03/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 26
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+Submitted job 26 with external jobid 'Submitted batch job 3490471'.
+
+[Mon Mar 21 10:41:18 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/austrophorocera_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/austrophorocera_wood05/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 13
+    wildcards: Genome_ID=austrophorocera_wood05
+
+Submitted job 13 with external jobid 'Submitted batch job 3490472'.
+
+[Mon Mar 21 10:41:18 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood01dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/chrysoexorista_wood01dhj02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    jobid: 27
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+Submitted job 27 with external jobid 'Submitted batch job 3490473'.
+[Mon Mar 21 12:02:24 2022]
+Finished job 34.
+1 of 75 steps (1%) done
+
+[Mon Mar 21 12:02:24 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/Sum_table_siphosturmia_wood02.txt
+    jobid: 108
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 108 with external jobid 'Submitted batch job 3490552'.
+[Mon Mar 21 12:09:35 2022]
+Finished job 14.
+2 of 75 steps (3%) done
+
+[Mon Mar 21 12:09:35 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/Sum_table_houghia_pallida.txt
+    jobid: 88
+    wildcards: Genome_ID=houghia_pallida
+
+Submitted job 88 with external jobid 'Submitted batch job 3490553'.
+[Mon Mar 21 12:20:13 2022]
+Finished job 7.
+3 of 75 steps (4%) done
+
+[Mon Mar 21 12:20:13 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/Sum_table_argyrophylax_albincisadhj04.txt
+    jobid: 81
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+Submitted job 81 with external jobid 'Submitted batch job 3490554'.
+[Mon Mar 21 12:20:26 2022]
+Finished job 35.
+4 of 75 steps (5%) done
+
+[Mon Mar 21 12:20:26 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/Sum_table_cordyligaster_capellii.txt
+    jobid: 109
+    wildcards: Genome_ID=cordyligaster_capellii
+
+Submitted job 109 with external jobid 'Submitted batch job 3490555'.
+[Mon Mar 21 12:34:59 2022]
+Finished job 20.
+5 of 75 steps (7%) done
+
+[Mon Mar 21 12:34:59 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/Sum_table_jurinella_wood01.txt
+    jobid: 94
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 94 with external jobid 'Submitted batch job 3490556'.
+[Mon Mar 21 12:51:42 2022]
+Finished job 6.
+6 of 75 steps (8%) done
+
+[Mon Mar 21 12:51:42 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/Sum_table_genea_wood03dhj01.txt
+    jobid: 80
+    wildcards: Genome_ID=genea_wood03dhj01
+
+Submitted job 80 with external jobid 'Submitted batch job 3490557'.
+[Mon Mar 21 12:52:10 2022]
+Error in rule BUSCO:
+    jobid: 10
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_brevipilosa/BUSCO_results/run_diptera_odb10/full_table.tsv
+    shell:
+        
+     hostname
+     cd /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_brevipilosa/
+     /beegfs/data/soft/singularity-3.7.2/bin/singularity exec --bind /beegfs/:/beegfs/ /beegfs/data/soukkal/TOOLS/BUSCO.sif busco -i /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_brevipilosa.fna  -l diptera_odb10 -m genome -o BUSCO_results -c 4 -f
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490460
+
+Error executing rule BUSCO on cluster (jobid: 10, external: Submitted batch job 3490460, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.BUSCO.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 12:53:52 2022]
+Finished job 29.
+7 of 75 steps (9%) done
+[Mon Mar 21 13:30:59 2022]
+Finished job 1.
+8 of 75 steps (11%) done
+[Mon Mar 21 13:35:59 2022]
+Finished job 15.
+9 of 75 steps (12%) done
+[Mon Mar 21 13:37:17 2022]
+Finished job 28.
+10 of 75 steps (13%) done
+[Mon Mar 21 13:51:24 2022]
+Finished job 9.
+11 of 75 steps (15%) done
+[Mon Mar 21 13:52:03 2022]
+Finished job 3.
+12 of 75 steps (16%) done
+[Mon Mar 21 13:52:54 2022]
+Finished job 36.
+13 of 75 steps (17%) done
+[Mon Mar 21 13:56:20 2022]
+Finished job 8.
+14 of 75 steps (19%) done
+[Mon Mar 21 14:20:35 2022]
+Finished job 17.
+15 of 75 steps (20%) done
+[Mon Mar 21 14:33:37 2022]
+Finished job 31.
+16 of 75 steps (21%) done
+[Mon Mar 21 14:40:38 2022]
+Finished job 24.
+17 of 75 steps (23%) done
+[Mon Mar 21 14:44:02 2022]
+Finished job 37.
+18 of 75 steps (24%) done
+[Mon Mar 21 15:01:16 2022]
+Finished job 18.
+19 of 75 steps (25%) done
+[Mon Mar 21 15:02:52 2022]
+Finished job 32.
+20 of 75 steps (27%) done
+[Mon Mar 21 15:12:52 2022]
+Finished job 16.
+21 of 75 steps (28%) done
+[Mon Mar 21 15:15:17 2022]
+Finished job 2.
+22 of 75 steps (29%) done
+[Mon Mar 21 15:20:42 2022]
+Finished job 5.
+23 of 75 steps (31%) done
+[Mon Mar 21 15:35:34 2022]
+Finished job 30.
+24 of 75 steps (32%) done
+[Mon Mar 21 15:44:13 2022]
+Finished job 12.
+25 of 75 steps (33%) done
+[Mon Mar 21 15:47:43 2022]
+Finished job 11.
+26 of 75 steps (35%) done
+[Mon Mar 21 15:56:20 2022]
+Finished job 33.
+27 of 75 steps (36%) done
+[Mon Mar 21 15:56:42 2022]
+Finished job 21.
+28 of 75 steps (37%) done
+[Mon Mar 21 16:07:33 2022]
+Finished job 27.
+29 of 75 steps (39%) done
+[Mon Mar 21 16:27:32 2022]
+Finished job 22.
+30 of 75 steps (40%) done
+[Mon Mar 21 16:35:49 2022]
+Finished job 26.
+31 of 75 steps (41%) done
+[Mon Mar 21 16:49:23 2022]
+Finished job 23.
+32 of 75 steps (43%) done
+[Mon Mar 21 16:53:14 2022]
+Finished job 4.
+33 of 75 steps (44%) done
+[Mon Mar 21 17:41:40 2022]
+Error in rule Sum:
+    jobid: 108
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/Sum_table_siphosturmia_wood02.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/Sum_table_siphosturmia_wood02.txt -sp siphosturmia_wood02
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/siphosturmia_wood02/BUSCO_results/run_diptera_odb10/Sum_table_siphosturmia_wood02.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_siphosturmia_wood02.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490552
+
+Error executing rule Sum on cluster (jobid: 108, external: Submitted batch job 3490552, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.108.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 17:42:10 2022]
+Error in rule Sum:
+    jobid: 88
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/Sum_table_houghia_pallida.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/Sum_table_houghia_pallida.txt -sp houghia_pallida
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/houghia_pallida/BUSCO_results/run_diptera_odb10/Sum_table_houghia_pallida.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_houghia_pallida.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490553
+
+Error executing rule Sum on cluster (jobid: 88, external: Submitted batch job 3490553, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.88.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 17:42:40 2022]
+Error in rule Sum:
+    jobid: 81
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/Sum_table_argyrophylax_albincisadhj04.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/Sum_table_argyrophylax_albincisadhj04.txt -sp argyrophylax_albincisadhj04
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/argyrophylax_albincisadhj04/BUSCO_results/run_diptera_odb10/Sum_table_argyrophylax_albincisadhj04.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_argyrophylax_albincisadhj04.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490554
+
+Error executing rule Sum on cluster (jobid: 81, external: Submitted batch job 3490554, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.81.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 17:43:10 2022]
+Error in rule Sum:
+    jobid: 109
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/Sum_table_cordyligaster_capellii.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/Sum_table_cordyligaster_capellii.txt -sp cordyligaster_capellii
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/cordyligaster_capellii/BUSCO_results/run_diptera_odb10/Sum_table_cordyligaster_capellii.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_cordyligaster_capellii.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490555
+
+Error executing rule Sum on cluster (jobid: 109, external: Submitted batch job 3490555, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.109.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 17:43:40 2022]
+Error in rule Sum:
+    jobid: 94
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/Sum_table_jurinella_wood01.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/Sum_table_jurinella_wood01.txt -sp jurinella_wood01
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/jurinella_wood01/BUSCO_results/run_diptera_odb10/Sum_table_jurinella_wood01.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_jurinella_wood01.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490556
+
+Error executing rule Sum on cluster (jobid: 94, external: Submitted batch job 3490556, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.94.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 17:44:10 2022]
+Error in rule Sum:
+    jobid: 80
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/Sum_table_genea_wood03dhj01.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/Sum_table_genea_wood03dhj01.txt -sp genea_wood03dhj01
+     cp /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/genea_wood03dhj01/BUSCO_results/run_diptera_odb10/Sum_table_genea_wood03dhj01.txt /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Stat_Results/Busco_sum/diptera/Sum_table_genea_wood03dhj01.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3490557
+
+Error executing rule Sum on cluster (jobid: 80, external: Submitted batch job 3490557, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.e5lpbln1/snakejob.Sum.80.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Mon Mar 21 18:47:16 2022]
+Finished job 13.
+34 of 75 steps (45%) done
+[Mon Mar 21 18:52:06 2022]
+Finished job 25.
+35 of 75 steps (47%) done
+[Mon Mar 21 19:52:50 2022]
+Finished job 19.
+36 of 75 steps (48%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/log/2022-03-21T104113.918759.snakemake.log

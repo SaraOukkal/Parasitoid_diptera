@@ -1,0 +1,643 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	20	Define_loci
+	37	Extract_loci
+	37	Translate_loci
+	95
+
+[Wed Apr  6 07:53:15 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/aplomyopsis_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.fna
+    jobid: 76
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+Submitted job 76 with external jobid 'Submitted batch job 3612193'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.fna
+    jobid: 104
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+Submitted job 104 with external jobid 'Submitted batch job 3612194'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 48
+    wildcards: Genome_ID=houghia_brevipilosa
+
+Submitted job 48 with external jobid 'Submitted batch job 3612195'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley07g.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.fna
+    jobid: 90
+    wildcards: Genome_ID=belvosia_woodley07g
+
+Submitted job 90 with external jobid 'Submitted batch job 3612196'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 62
+    wildcards: Genome_ID=leskia_janzen27
+
+Submitted job 62 with external jobid 'Submitted batch job 3612197'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 42
+    wildcards: Genome_ID=genea_wood01
+
+Submitted job 42 with external jobid 'Submitted batch job 3612198'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 56
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+Submitted job 56 with external jobid 'Submitted batch job 3612199'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 70
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+Submitted job 70 with external jobid 'Submitted batch job 3612200'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.fna
+    jobid: 84
+    wildcards: Genome_ID=argyrophylax_wood05
+
+Submitted job 84 with external jobid 'Submitted batch job 3612201'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 63
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+Submitted job 63 with external jobid 'Submitted batch job 3612202'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 49
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+Submitted job 49 with external jobid 'Submitted batch job 3612203'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 50
+    wildcards: Genome_ID=houghia_graciloides
+
+Submitted job 50 with external jobid 'Submitted batch job 3612204'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 64
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+Submitted job 64 with external jobid 'Submitted batch job 3612205'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 59
+    wildcards: Genome_ID=calolydella_timjamesi
+
+Submitted job 59 with external jobid 'Submitted batch job 3612206'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/zizyphomyia_argutadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.fna
+    jobid: 111
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+Submitted job 111 with external jobid 'Submitted batch job 3612207'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood02dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.fna
+    jobid: 108
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+Submitted job 108 with external jobid 'Submitted batch job 3612208'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_erasmocoronadoi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.fna
+    jobid: 94
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+Submitted job 94 with external jobid 'Submitted batch job 3612209'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrochaetona_cubanadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.fna
+    jobid: 80
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+Submitted job 80 with external jobid 'Submitted batch job 3612210'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 46
+    wildcards: Genome_ID=houghia_bivittata
+
+Submitted job 46 with external jobid 'Submitted batch job 3612211'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 60
+    wildcards: Genome_ID=leschenaultia_wood15
+
+Submitted job 60 with external jobid 'Submitted batch job 3612212'.
+
+[Wed Apr  6 07:53:16 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood01dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.fna
+    jobid: 102
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+Submitted job 102 with external jobid 'Submitted batch job 3612213'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/austrophorocera_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.fna
+    jobid: 88
+    wildcards: Genome_ID=austrophorocera_wood05
+
+Submitted job 88 with external jobid 'Submitted batch job 3612214'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.fna
+    jobid: 95
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 95 with external jobid 'Submitted batch job 3612215'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.fna
+    jobid: 81
+    wildcards: Genome_ID=genea_wood03dhj01
+
+Submitted job 81 with external jobid 'Submitted batch job 3612216'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.fna
+    jobid: 109
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 109 with external jobid 'Submitted batch job 3612217'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 69
+    wildcards: Genome_ID=chrysotachina_wood01
+
+Submitted job 69 with external jobid 'Submitted batch job 3612218'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 61
+    wildcards: Genome_ID=campylocheta_wood03
+
+Submitted job 61 with external jobid 'Submitted batch job 3612219'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 75
+    wildcards: Genome_ID=drino_wood06dhj01
+
+Submitted job 75 with external jobid 'Submitted batch job 3612220'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood06.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.fna
+    jobid: 103
+    wildcards: Genome_ID=lixophaga_wood06
+
+Submitted job 103 with external jobid 'Submitted batch job 3612221'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_pallida.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.fna
+    jobid: 89
+    wildcards: Genome_ID=houghia_pallida
+
+Submitted job 89 with external jobid 'Submitted batch job 3612222'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 40
+    wildcards: Genome_ID=drino_wood06dhj05
+
+Submitted job 40 with external jobid 'Submitted batch job 3612223'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 54
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+Submitted job 54 with external jobid 'Submitted batch job 3612224'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 68
+    wildcards: Genome_ID=lixophaga_wood09
+
+Submitted job 68 with external jobid 'Submitted batch job 3612225'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_albincisadhj04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.fna
+    jobid: 82
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+Submitted job 82 with external jobid 'Submitted batch job 3612226'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Extract_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2_strand_summary_V.bed, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/cordyligaster_capellii.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci.fna
+    jobid: 110
+    wildcards: Genome_ID=cordyligaster_capellii
+
+Submitted job 110 with external jobid 'Submitted batch job 3612227'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 41
+    wildcards: Genome_ID=archytas_wood02
+
+Submitted job 41 with external jobid 'Submitted batch job 3612228'.
+
+[Wed Apr  6 07:53:17 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2_strand_summary_V.bed
+    jobid: 55
+    wildcards: Genome_ID=belvosia_woodley10
+
+Submitted job 55 with external jobid 'Submitted batch job 3612229'.
+[Wed Apr  6 07:53:25 2022]
+Error in rule Extract_loci:
+    jobid: 76
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/aplomyopsis_wood01.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_aplomyopsis_wood01.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):aplomyopsis_wood01@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612193
+
+Error executing rule Extract_loci on cluster (jobid: 76, external: Submitted batch job 3612193, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.76.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:25 2022]
+Error in rule Extract_loci:
+    jobid: 104
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood04.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_chrysoexorista_wood04.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):chrysoexorista_wood04@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612194
+
+Error executing rule Extract_loci on cluster (jobid: 104, external: Submitted batch job 3612194, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.104.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:25 2022]
+Error in rule Extract_loci:
+    jobid: 90
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley07g.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_belvosia_woodley07g.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):belvosia_woodley07g@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612196
+
+Error executing rule Extract_loci on cluster (jobid: 90, external: Submitted batch job 3612196, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.90.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:25 2022]
+Error in rule Extract_loci:
+    jobid: 84
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_argyrophylax_wood05.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):argyrophylax_wood05@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612201
+
+Error executing rule Extract_loci on cluster (jobid: 84, external: Submitted batch job 3612201, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.84.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:26 2022]
+Error in rule Extract_loci:
+    jobid: 111
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/zizyphomyia_argutadhj02.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_zizyphomyia_argutadhj02.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):zizyphomyia_argutadhj02@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612207
+
+Error executing rule Extract_loci on cluster (jobid: 111, external: Submitted batch job 3612207, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.111.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:26 2022]
+Error in rule Extract_loci:
+    jobid: 108
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood02dhj02.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_chrysotachina_wood02dhj02.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):chrysotachina_wood02dhj02@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612208
+
+Error executing rule Extract_loci on cluster (jobid: 108, external: Submitted batch job 3612208, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.108.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:27 2022]
+Error in rule Extract_loci:
+    jobid: 94
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_erasmocoronadoi.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_calolydella_erasmocoronadoi.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):calolydella_erasmocoronadoi@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612209
+
+Error executing rule Extract_loci on cluster (jobid: 94, external: Submitted batch job 3612209, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.94.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:27 2022]
+Error in rule Extract_loci:
+    jobid: 80
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrochaetona_cubanadhj02.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_argyrochaetona_cubanadhj02.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):argyrochaetona_cubanadhj02@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612210
+
+Error executing rule Extract_loci on cluster (jobid: 80, external: Submitted batch job 3612210, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.80.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:27 2022]
+Error in rule Extract_loci:
+    jobid: 102
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood01dhj02.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_chrysoexorista_wood01dhj02.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):chrysoexorista_wood01dhj02@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612213
+
+Error executing rule Extract_loci on cluster (jobid: 102, external: Submitted batch job 3612213, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.102.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:53:51 2022]
+Finished job 48.
+1 of 95 steps (1%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 62.
+2 of 95 steps (2%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 42.
+3 of 95 steps (3%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 56.
+4 of 95 steps (4%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 70.
+5 of 95 steps (5%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 49.
+6 of 95 steps (6%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 50.
+7 of 95 steps (7%) done
+[Wed Apr  6 07:53:51 2022]
+Finished job 64.
+8 of 95 steps (8%) done
+[Wed Apr  6 07:53:52 2022]
+Finished job 46.
+9 of 95 steps (9%) done
+[Wed Apr  6 07:53:52 2022]
+Finished job 60.
+10 of 95 steps (11%) done
+[Wed Apr  6 07:54:03 2022]
+Finished job 63.
+11 of 95 steps (12%) done
+[Wed Apr  6 07:54:03 2022]
+Finished job 59.
+12 of 95 steps (13%) done
+[Wed Apr  6 07:57:11 2022]
+Finished job 41.
+13 of 95 steps (14%) done
+[Wed Apr  6 07:57:11 2022]
+Finished job 55.
+14 of 95 steps (15%) done
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 88
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/austrophorocera_wood05.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_austrophorocera_wood05.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):austrophorocera_wood05@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612214
+
+Error executing rule Extract_loci on cluster (jobid: 88, external: Submitted batch job 3612214, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.88.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 95
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_jurinella_wood01.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):jurinella_wood01@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612215
+
+Error executing rule Extract_loci on cluster (jobid: 95, external: Submitted batch job 3612215, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.95.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 81
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_genea_wood03dhj01.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):genea_wood03dhj01@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612216
+
+Error executing rule Extract_loci on cluster (jobid: 81, external: Submitted batch job 3612216, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.81.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 109
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_siphosturmia_wood02.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):siphosturmia_wood02@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612217
+
+Error executing rule Extract_loci on cluster (jobid: 109, external: Submitted batch job 3612217, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.109.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 103
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood06.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_lixophaga_wood06.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):lixophaga_wood06@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612221
+
+Error executing rule Extract_loci on cluster (jobid: 103, external: Submitted batch job 3612221, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.103.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:21 2022]
+Error in rule Extract_loci:
+    jobid: 89
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_pallida.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_houghia_pallida.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):houghia_pallida@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612222
+
+Error executing rule Extract_loci on cluster (jobid: 89, external: Submitted batch job 3612222, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.89.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:22 2022]
+Error in rule Extract_loci:
+    jobid: 82
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_albincisadhj04.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_argyrophylax_albincisadhj04.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):argyrophylax_albincisadhj04@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612226
+
+Error executing rule Extract_loci on cluster (jobid: 82, external: Submitted batch job 3612226, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.82.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:22 2022]
+Error in rule Extract_loci:
+    jobid: 110
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci1.fna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci.fna
+    shell:
+        
+		bedtools getfasta -fi /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/cordyligaster_capellii.fna -bed /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2_strand_summary_V.bed -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci1.fna >& /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Extract_loci_cordyligaster_capellii.out
+		#Add species name into the loci names (so when we do the clustering step we know the origin of each scaffold)
+		sed -i 's@)@):cordyligaster_capellii@g' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci1.fna > /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci.fna
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3612227
+
+Error executing rule Extract_loci on cluster (jobid: 110, external: Submitted batch job 3612227, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.z5qo6yts/snakejob.Extract_loci.110.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Wed Apr  6 07:57:42 2022]
+Finished job 69.
+15 of 95 steps (16%) done
+[Wed Apr  6 07:57:42 2022]
+Finished job 61.
+16 of 95 steps (17%) done
+[Wed Apr  6 07:57:42 2022]
+Finished job 75.
+17 of 95 steps (18%) done
+[Wed Apr  6 07:57:42 2022]
+Finished job 40.
+18 of 95 steps (19%) done
+[Wed Apr  6 07:57:43 2022]
+Finished job 54.
+19 of 95 steps (20%) done
+[Wed Apr  6 07:57:43 2022]
+Finished job 68.
+20 of 95 steps (21%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T075312.823363.snakemake.log

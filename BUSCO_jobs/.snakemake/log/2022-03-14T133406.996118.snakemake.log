@@ -1,0 +1,21 @@
+Building DAG of jobs...
+Job counts:
+	count	jobs
+	40	Sum
+	1	all
+	41
+
+[Mon Mar 14 13:34:10 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_013731165.1/BUSCO_results/run_arthropoda_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Stat_Results/GCF_013731165.1/BUSCO_results/Sum_table_GCF_013731165.1.txt
+    jobid: 118
+    wildcards: Genome_ID=GCF_013731165.1
+
+RuleException in line 51 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Control:
+NameError: The name 'Busco_res' is unknown in this context. Please make sure that you defined that variable. Also note that braces not used for variable access have to be escaped by repeating them, i.e. {{print $1}}
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 140, in run_jobs
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 145, in run
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 156, in _run
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 176, in printjob
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 162, in printjob

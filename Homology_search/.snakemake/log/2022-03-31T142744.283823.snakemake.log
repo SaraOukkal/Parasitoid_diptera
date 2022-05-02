@@ -1,0 +1,67 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	40	Define_loci
+	40	Extract_loci
+	39	Homology_analysis
+	40	Translate_loci
+	160
+
+[Thu Mar 31 14:27:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_020466095.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_020466095.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 20
+    wildcards: Genome_ID=GCA_020466095.1
+
+Submitted job 20 with external jobid 'Submitted batch job 3588855'.
+
+[Thu Mar 31 14:27:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000699065.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCF_000699065.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 34
+    wildcards: Genome_ID=GCF_000699065.1
+
+Submitted job 34 with external jobid 'Submitted batch job 3588856'.
+
+[Thu Mar 31 14:27:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015075.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001015075.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 6
+    wildcards: Genome_ID=GCA_001015075.1
+
+Submitted job 6 with external jobid 'Submitted batch job 3588857'.
+
+[Thu Mar 31 14:27:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003952975.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_003952975.1/run_mmseqs2/result_mmseqs2.m8
+    jobid: 14
+    wildcards: Genome_ID=GCA_003952975.1
+
+Submitted job 14 with external jobid 'Submitted batch job 3588858'.
+
+[Thu Mar 31 14:27:47 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_917880715.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_917880715.2/run_mmseqs2/result_mmseqs2.m8
+    jobid: 28
+    wildcards: Genome_ID=GCA_917880715.2
+
+Submitted job 28 with external jobid 'Submitted batch job 3588859'.
+
+[Thu Mar 31 14:27:47 2022]
+rule Define_loci:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2.m8
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_V.m8, /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/GCA_001014415.1/run_mmseqs2/result_mmseqs2_strand_summary_V.m8
+    jobid: 42
+    wildcards: Genome_ID=GCA_001014415.1
+
+WorkflowError in line 71 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Control:
+'Params' object has no attribute 'name'
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 140, in run_jobs
+  File "/beegfs/data/bguinet/Bguinet_conda/lib/python3.7/site-packages/snakemake/executors/__init__.py", line 1003, in run

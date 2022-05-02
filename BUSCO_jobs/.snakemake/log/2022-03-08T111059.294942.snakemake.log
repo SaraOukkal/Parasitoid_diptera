@@ -1,0 +1,368 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	40	BUSCO
+	1	all
+	41
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_001015335.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_001015335.1/BUSCO_results/full_table.tsv
+    jobid: 34
+    wildcards: Genome_ID=GCF_001015335.1
+
+Submitted job 34 with external jobid 'Submitted batch job 3448079'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_021234595.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_021234595.1/BUSCO_results/full_table.tsv
+    jobid: 20
+    wildcards: Genome_ID=GCA_021234595.1
+
+Submitted job 20 with external jobid 'Submitted batch job 3448080'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015115.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001015115.1/BUSCO_results/full_table.tsv
+    jobid: 6
+    wildcards: Genome_ID=GCA_001015115.1
+
+Submitted job 6 with external jobid 'Submitted batch job 3448081'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003952975.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_003952975.1/BUSCO_results/full_table.tsv
+    jobid: 13
+    wildcards: Genome_ID=GCA_003952975.1
+
+Submitted job 13 with external jobid 'Submitted batch job 3448082'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920104205.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_920104205.1/BUSCO_results/full_table.tsv
+    jobid: 28
+    wildcards: Genome_ID=GCA_920104205.1
+
+Submitted job 28 with external jobid 'Submitted batch job 3448083'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_004302925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_004302925.1/BUSCO_results/full_table.tsv
+    jobid: 14
+    wildcards: Genome_ID=GCA_004302925.1
+
+Submitted job 14 with external jobid 'Submitted batch job 3448084'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015175.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001015175.1/BUSCO_results/full_table.tsv
+    jobid: 7
+    wildcards: Genome_ID=GCA_001015175.1
+
+Submitted job 7 with external jobid 'Submitted batch job 3448085'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_905231855.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_905231855.2/BUSCO_results/full_table.tsv
+    jobid: 21
+    wildcards: Genome_ID=GCA_905231855.2
+
+Submitted job 21 with external jobid 'Submitted batch job 3448086'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_002237135.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_002237135.1/BUSCO_results/full_table.tsv
+    jobid: 35
+    wildcards: Genome_ID=GCF_002237135.1
+
+Submitted job 35 with external jobid 'Submitted batch job 3448087'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014415.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014415.1/BUSCO_results/full_table.tsv
+    jobid: 1
+    wildcards: Genome_ID=GCA_001014415.1
+
+Submitted job 1 with external jobid 'Submitted batch job 3448088'.
+
+[Tue Mar  8 11:11:03 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_005959815.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_005959815.1/BUSCO_results/full_table.tsv
+    jobid: 15
+    wildcards: Genome_ID=GCA_005959815.1
+
+Submitted job 15 with external jobid 'Submitted batch job 3448089'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_920105625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_920105625.1/BUSCO_results/full_table.tsv
+    jobid: 29
+    wildcards: Genome_ID=GCA_920105625.1
+
+Submitted job 29 with external jobid 'Submitted batch job 3448090'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017275.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001017275.1/BUSCO_results/full_table.tsv
+    jobid: 8
+    wildcards: Genome_ID=GCA_001017275.1
+
+Submitted job 8 with external jobid 'Submitted batch job 3448091'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_907269105.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_907269105.1/BUSCO_results/full_table.tsv
+    jobid: 22
+    wildcards: Genome_ID=GCA_907269105.1
+
+Submitted job 22 with external jobid 'Submitted batch job 3448092'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_009650485.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_009650485.1/BUSCO_results/full_table.tsv
+    jobid: 36
+    wildcards: Genome_ID=GCF_009650485.1
+
+Submitted job 36 with external jobid 'Submitted batch job 3448093'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014675.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014675.1/BUSCO_results/full_table.tsv
+    jobid: 3
+    wildcards: Genome_ID=GCA_001014675.1
+
+Submitted job 3 with external jobid 'Submitted batch job 3448094'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_014858695.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_014858695.1/BUSCO_results/full_table.tsv
+    jobid: 16
+    wildcards: Genome_ID=GCA_014858695.1
+
+Submitted job 16 with external jobid 'Submitted batch job 3448095'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_922984085.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_922984085.1/BUSCO_results/full_table.tsv
+    jobid: 30
+    wildcards: Genome_ID=GCA_922984085.1
+
+Submitted job 30 with external jobid 'Submitted batch job 3448096'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767635.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_914767635.1/BUSCO_results/full_table.tsv
+    jobid: 23
+    wildcards: Genome_ID=GCA_914767635.1
+
+Submitted job 23 with external jobid 'Submitted batch job 3448097'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001017515.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001017515.1/BUSCO_results/full_table.tsv
+    jobid: 9
+    wildcards: Genome_ID=GCA_001017515.1
+
+Submitted job 9 with external jobid 'Submitted batch job 3448098'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013340165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_013340165.1/BUSCO_results/full_table.tsv
+    jobid: 37
+    wildcards: Genome_ID=GCF_013340165.1
+
+Submitted job 37 with external jobid 'Submitted batch job 3448099'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014575.1/BUSCO_results/full_table.tsv
+    jobid: 2
+    wildcards: Genome_ID=GCA_001014575.1
+
+Submitted job 2 with external jobid 'Submitted batch job 3448100'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_017309665.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_017309665.1/BUSCO_results/full_table.tsv
+    jobid: 17
+    wildcards: Genome_ID=GCA_017309665.1
+
+Submitted job 17 with external jobid 'Submitted batch job 3448101'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000001215.4.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_000001215.4/BUSCO_results/full_table.tsv
+    jobid: 31
+    wildcards: Genome_ID=GCF_000001215.4
+
+Submitted job 31 with external jobid 'Submitted batch job 3448102'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001735545.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001735545.1/BUSCO_results/full_table.tsv
+    jobid: 10
+    wildcards: Genome_ID=GCA_001735545.1
+
+Submitted job 10 with external jobid 'Submitted batch job 3448103'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_914767935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_914767935.1/BUSCO_results/full_table.tsv
+    jobid: 24
+    wildcards: Genome_ID=GCA_914767935.1
+
+Submitted job 24 with external jobid 'Submitted batch job 3448104'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_013731165.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_013731165.1/BUSCO_results/full_table.tsv
+    jobid: 38
+    wildcards: Genome_ID=GCF_013731165.1
+
+Submitted job 38 with external jobid 'Submitted batch job 3448105'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001014935.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001014935.1/BUSCO_results/full_table.tsv
+    jobid: 4
+    wildcards: Genome_ID=GCA_001014935.1
+
+Submitted job 4 with external jobid 'Submitted batch job 3448106'.
+
+[Tue Mar  8 11:11:04 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_019455685.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_019455685.1/BUSCO_results/full_table.tsv
+    jobid: 18
+    wildcards: Genome_ID=GCA_019455685.1
+
+Submitted job 18 with external jobid 'Submitted batch job 3448107'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000347755.3.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_000347755.3/BUSCO_results/full_table.tsv
+    jobid: 32
+    wildcards: Genome_ID=GCF_000347755.3
+
+Submitted job 32 with external jobid 'Submitted batch job 3448108'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003055125.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_003055125.1/BUSCO_results/full_table.tsv
+    jobid: 11
+    wildcards: Genome_ID=GCA_003055125.1
+
+Submitted job 11 with external jobid 'Submitted batch job 3448109'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916048285.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_916048285.2/BUSCO_results/full_table.tsv
+    jobid: 25
+    wildcards: Genome_ID=GCA_916048285.2
+
+Submitted job 25 with external jobid 'Submitted batch job 3448110'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_014805625.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_014805625.1/BUSCO_results/full_table.tsv
+    jobid: 39
+    wildcards: Genome_ID=GCF_014805625.1
+
+Submitted job 39 with external jobid 'Submitted batch job 3448111'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_001015075.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_001015075.1/BUSCO_results/full_table.tsv
+    jobid: 5
+    wildcards: Genome_ID=GCA_001015075.1
+
+Submitted job 5 with external jobid 'Submitted batch job 3448112'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_020466095.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_020466095.1/BUSCO_results/full_table.tsv
+    jobid: 19
+    wildcards: Genome_ID=GCA_020466095.1
+
+Submitted job 19 with external jobid 'Submitted batch job 3448113'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_000699065.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_000699065.1/BUSCO_results/full_table.tsv
+    jobid: 33
+    wildcards: Genome_ID=GCF_000699065.1
+
+Submitted job 33 with external jobid 'Submitted batch job 3448114'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_003123925.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_003123925.1/BUSCO_results/full_table.tsv
+    jobid: 12
+    wildcards: Genome_ID=GCA_003123925.1
+
+Submitted job 12 with external jobid 'Submitted batch job 3448115'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_916050605.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_916050605.2/BUSCO_results/full_table.tsv
+    jobid: 26
+    wildcards: Genome_ID=GCA_916050605.2
+
+Submitted job 26 with external jobid 'Submitted batch job 3448116'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCF_016617805.1.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCF_016617805.1/BUSCO_results/full_table.tsv
+    jobid: 40
+    wildcards: Genome_ID=GCF_016617805.1
+
+Submitted job 40 with external jobid 'Submitted batch job 3448117'.
+
+[Tue Mar  8 11:11:05 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Control_genomes/genomes/GCA_917880715.2.fna
+    output: /beegfs/data/soukkal/StageM2/Control_genomes/results/GCA_917880715.2/BUSCO_results/full_table.tsv
+    jobid: 27
+    wildcards: Genome_ID=GCA_917880715.2
+
+Submitted job 27 with external jobid 'Submitted batch job 3448118'.

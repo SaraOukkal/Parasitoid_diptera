@@ -1,0 +1,985 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	37	Define_loci
+	37	Extract_loci
+	37	Homology_analysis
+	37	Translate_loci
+	149
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_erasmocoronadoi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/run_mmseqs2/result_mmseqs2.m8
+    jobid: 20
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+Submitted job 20 with external jobid 'Submitted batch job 3588929'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrochaetona_cubanadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 6
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+Submitted job 6 with external jobid 'Submitted batch job 3588930'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood02dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 34
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+Submitted job 34 with external jobid 'Submitted batch job 3588931'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/austrophorocera_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2.m8
+    jobid: 14
+    wildcards: Genome_ID=austrophorocera_wood05
+
+Submitted job 14 with external jobid 'Submitted batch job 3588932'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood01dhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 28
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+Submitted job 28 with external jobid 'Submitted batch job 3588933'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 21
+    wildcards: Genome_ID=jurinella_wood01
+
+Submitted job 21 with external jobid 'Submitted batch job 3588934'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 7
+    wildcards: Genome_ID=genea_wood03dhj01
+
+Submitted job 7 with external jobid 'Submitted batch job 3588935'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 35
+    wildcards: Genome_ID=siphosturmia_wood02
+
+Submitted job 35 with external jobid 'Submitted batch job 3588936'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood06.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2.m8
+    jobid: 29
+    wildcards: Genome_ID=lixophaga_wood06
+
+Submitted job 29 with external jobid 'Submitted batch job 3588937'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/aplomyopsis_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 2
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+Submitted job 2 with external jobid 'Submitted batch job 3588938'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_pallida.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2.m8
+    jobid: 15
+    wildcards: Genome_ID=houghia_pallida
+
+Submitted job 15 with external jobid 'Submitted batch job 3588939'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_albincisadhj04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2.m8
+    jobid: 8
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+Submitted job 8 with external jobid 'Submitted batch job 3588940'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_timjamesi.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2.m8
+    jobid: 22
+    wildcards: Genome_ID=calolydella_timjamesi
+
+Submitted job 22 with external jobid 'Submitted batch job 3588941'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/cordyligaster_capellii.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2.m8
+    jobid: 36
+    wildcards: Genome_ID=cordyligaster_capellii
+
+Submitted job 36 with external jobid 'Submitted batch job 3588942'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley07g.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2.m8
+    jobid: 16
+    wildcards: Genome_ID=belvosia_woodley07g
+
+Submitted job 16 with external jobid 'Submitted batch job 3588943'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood04.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/run_mmseqs2/result_mmseqs2.m8
+    jobid: 30
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+Submitted job 30 with external jobid 'Submitted batch job 3588944'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/zizyphomyia_argutadhj02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 37
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+Submitted job 37 with external jobid 'Submitted batch job 3588945'.
+
+[Thu Mar 31 17:53:58 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_bivittata.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2.m8
+    jobid: 9
+    wildcards: Genome_ID=houghia_bivittata
+
+Submitted job 9 with external jobid 'Submitted batch job 3588946'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leschenaultia_wood15.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2.m8
+    jobid: 23
+    wildcards: Genome_ID=leschenaultia_wood15
+
+Submitted job 23 with external jobid 'Submitted batch job 3588947'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_virilis.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2.m8
+    jobid: 17
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+Submitted job 17 with external jobid 'Submitted batch job 3588948'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood09.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2.m8
+    jobid: 31
+    wildcards: Genome_ID=lixophaga_wood09
+
+Submitted job 31 with external jobid 'Submitted batch job 3588949'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2.m8
+    jobid: 3
+    wildcards: Genome_ID=drino_wood06dhj05
+
+Submitted job 3 with external jobid 'Submitted batch job 3588950'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2.m8
+    jobid: 10
+    wildcards: Genome_ID=argyrophylax_wood05
+
+Submitted job 10 with external jobid 'Submitted batch job 3588951'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/campylocheta_wood03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2.m8
+    jobid: 24
+    wildcards: Genome_ID=campylocheta_wood03
+
+Submitted job 24 with external jobid 'Submitted batch job 3588952'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 38
+    wildcards: Genome_ID=drino_wood06dhj01
+
+Submitted job 38 with external jobid 'Submitted batch job 3588953'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley10.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2.m8
+    jobid: 18
+    wildcards: Genome_ID=belvosia_woodley10
+
+Submitted job 18 with external jobid 'Submitted batch job 3588954'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 32
+    wildcards: Genome_ID=chrysotachina_wood01
+
+Submitted job 32 with external jobid 'Submitted batch job 3588955'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/archytas_wood02.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2.m8
+    jobid: 4
+    wildcards: Genome_ID=archytas_wood02
+
+Submitted job 4 with external jobid 'Submitted batch job 3588956'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_brevipilosa.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2.m8
+    jobid: 11
+    wildcards: Genome_ID=houghia_brevipilosa
+
+Submitted job 11 with external jobid 'Submitted batch job 3588957'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_janzen27.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2.m8
+    jobid: 25
+    wildcards: Genome_ID=leskia_janzen27
+
+Submitted job 25 with external jobid 'Submitted batch job 3588958'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_wood11.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2.m8
+    jobid: 19
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+Submitted job 19 with external jobid 'Submitted batch job 3588959'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_rafaelidhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2.m8
+    jobid: 33
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+Submitted job 33 with external jobid 'Submitted batch job 3588960'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 5
+    wildcards: Genome_ID=genea_wood01
+
+Submitted job 5 with external jobid 'Submitted batch job 3588961'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/atacta_brasiliensisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 12
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+Submitted job 12 with external jobid 'Submitted batch job 3588962'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chetogena_scutellarisdhj01.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2.m8
+    jobid: 26
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+Submitted job 26 with external jobid 'Submitted batch job 3588963'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_graciloides.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2.m8
+    jobid: 13
+    wildcards: Genome_ID=houghia_graciloides
+
+Submitted job 13 with external jobid 'Submitted batch job 3588964'.
+
+[Thu Mar 31 17:53:59 2022]
+rule Homology_analysis:
+    input: /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna, /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_wood01dhj03.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2.m8
+    jobid: 27
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+Submitted job 27 with external jobid 'Submitted batch job 3588965'.
+[Thu Mar 31 18:32:21 2022]
+Error in rule Homology_analysis:
+    jobid: 14
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/austrophorocera_wood05.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/austrophorocera_wood05_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/austrophorocera_wood05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/austrophorocera_wood05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588932
+
+Error executing rule Homology_analysis on cluster (jobid: 14, external: Submitted batch job 3588932, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.14.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:32:34 2022]
+Error in rule Homology_analysis:
+    jobid: 28
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysoexorista_wood01dhj02.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/chrysoexorista_wood01dhj02_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/chrysoexorista_wood01dhj02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/chrysoexorista_wood01dhj02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588933
+
+Error executing rule Homology_analysis on cluster (jobid: 28, external: Submitted batch job 3588933, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.28.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:32:47 2022]
+Error in rule Homology_analysis:
+    jobid: 21
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/jurinella_wood01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/jurinella_wood01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/jurinella_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/jurinella_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588934
+
+Error executing rule Homology_analysis on cluster (jobid: 21, external: Submitted batch job 3588934, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.21.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:33:00 2022]
+Error in rule Homology_analysis:
+    jobid: 7
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood03dhj01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/genea_wood03dhj01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/genea_wood03dhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/genea_wood03dhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588935
+
+Error executing rule Homology_analysis on cluster (jobid: 7, external: Submitted batch job 3588935, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.7.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:33:13 2022]
+Error in rule Homology_analysis:
+    jobid: 35
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_wood02.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/siphosturmia_wood02_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/siphosturmia_wood02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/siphosturmia_wood02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588936
+
+Error executing rule Homology_analysis on cluster (jobid: 35, external: Submitted batch job 3588936, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.35.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:33:26 2022]
+Error in rule Homology_analysis:
+    jobid: 29
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood06.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/lixophaga_wood06_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/lixophaga_wood06_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/lixophaga_wood06_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588937
+
+Error executing rule Homology_analysis on cluster (jobid: 29, external: Submitted batch job 3588937, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.29.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:33:39 2022]
+Error in rule Homology_analysis:
+    jobid: 2
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/aplomyopsis_wood01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/aplomyopsis_wood01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/aplomyopsis_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/aplomyopsis_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588938
+
+Error executing rule Homology_analysis on cluster (jobid: 2, external: Submitted batch job 3588938, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.2.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:33:52 2022]
+Error in rule Homology_analysis:
+    jobid: 15
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_pallida.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/houghia_pallida_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/houghia_pallida_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/houghia_pallida_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588939
+
+Error executing rule Homology_analysis on cluster (jobid: 15, external: Submitted batch job 3588939, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.15.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:34:05 2022]
+Error in rule Homology_analysis:
+    jobid: 8
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_albincisadhj04.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/argyrophylax_albincisadhj04_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/argyrophylax_albincisadhj04_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/argyrophylax_albincisadhj04_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588940
+
+Error executing rule Homology_analysis on cluster (jobid: 8, external: Submitted batch job 3588940, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.8.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:34:29 2022]
+Error in rule Homology_analysis:
+    jobid: 22
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/calolydella_timjamesi.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/calolydella_timjamesi_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/calolydella_timjamesi_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/calolydella_timjamesi_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588941
+
+Error executing rule Homology_analysis on cluster (jobid: 22, external: Submitted batch job 3588941, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.22.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:34:41 2022]
+Error in rule Homology_analysis:
+    jobid: 36
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/cordyligaster_capellii.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/cordyligaster_capellii_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/cordyligaster_capellii_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/cordyligaster_capellii_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588942
+
+Error executing rule Homology_analysis on cluster (jobid: 36, external: Submitted batch job 3588942, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.36.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:34:53 2022]
+Error in rule Homology_analysis:
+    jobid: 16
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley07g.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/belvosia_woodley07g_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/belvosia_woodley07g_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/belvosia_woodley07g_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588943
+
+Error executing rule Homology_analysis on cluster (jobid: 16, external: Submitted batch job 3588943, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.16.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:35:05 2022]
+Error in rule Homology_analysis:
+    jobid: 37
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/zizyphomyia_argutadhj02.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/zizyphomyia_argutadhj02_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/zizyphomyia_argutadhj02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/zizyphomyia_argutadhj02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588945
+
+Error executing rule Homology_analysis on cluster (jobid: 37, external: Submitted batch job 3588945, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.37.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:35:17 2022]
+Error in rule Homology_analysis:
+    jobid: 9
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_bivittata.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/houghia_bivittata_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/houghia_bivittata_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/houghia_bivittata_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588946
+
+Error executing rule Homology_analysis on cluster (jobid: 9, external: Submitted batch job 3588946, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.9.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:35:42 2022]
+Error in rule Homology_analysis:
+    jobid: 23
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leschenaultia_wood15.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/leschenaultia_wood15_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/leschenaultia_wood15_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/leschenaultia_wood15_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588947
+
+Error executing rule Homology_analysis on cluster (jobid: 23, external: Submitted batch job 3588947, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.23.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:36:05 2022]
+Error in rule Homology_analysis:
+    jobid: 17
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_virilis.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/hyphantrophaga_virilis_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/hyphantrophaga_virilis_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/hyphantrophaga_virilis_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588948
+
+Error executing rule Homology_analysis on cluster (jobid: 17, external: Submitted batch job 3588948, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.17.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:36:29 2022]
+Error in rule Homology_analysis:
+    jobid: 31
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/lixophaga_wood09.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/lixophaga_wood09_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/lixophaga_wood09_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/lixophaga_wood09_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588949
+
+Error executing rule Homology_analysis on cluster (jobid: 31, external: Submitted batch job 3588949, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.31.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:36:42 2022]
+Error in rule Homology_analysis:
+    jobid: 3
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj05.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/drino_wood06dhj05_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/drino_wood06dhj05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/drino_wood06dhj05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588950
+
+Error executing rule Homology_analysis on cluster (jobid: 3, external: Submitted batch job 3588950, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.3.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:36:54 2022]
+Error in rule Homology_analysis:
+    jobid: 10
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/argyrophylax_wood05.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/argyrophylax_wood05_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/argyrophylax_wood05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/argyrophylax_wood05_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588951
+
+Error executing rule Homology_analysis on cluster (jobid: 10, external: Submitted batch job 3588951, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.10.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:37:16 2022]
+Error in rule Homology_analysis:
+    jobid: 24
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/campylocheta_wood03.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/campylocheta_wood03_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/campylocheta_wood03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/campylocheta_wood03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588952
+
+Error executing rule Homology_analysis on cluster (jobid: 24, external: Submitted batch job 3588952, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.24.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:37:27 2022]
+Error in rule Homology_analysis:
+    jobid: 38
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/drino_wood06dhj01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/drino_wood06dhj01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/drino_wood06dhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/drino_wood06dhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588953
+
+Error executing rule Homology_analysis on cluster (jobid: 38, external: Submitted batch job 3588953, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.38.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:37:38 2022]
+Error in rule Homology_analysis:
+    jobid: 18
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/belvosia_woodley10.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/belvosia_woodley10_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/belvosia_woodley10_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/belvosia_woodley10_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588954
+
+Error executing rule Homology_analysis on cluster (jobid: 18, external: Submitted batch job 3588954, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.18.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:38:00 2022]
+Error in rule Homology_analysis:
+    jobid: 32
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chrysotachina_wood01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/chrysotachina_wood01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/chrysotachina_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/chrysotachina_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588955
+
+Error executing rule Homology_analysis on cluster (jobid: 32, external: Submitted batch job 3588955, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.32.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:38:11 2022]
+Error in rule Homology_analysis:
+    jobid: 4
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/archytas_wood02.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/archytas_wood02_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/archytas_wood02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/archytas_wood02_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588956
+
+Error executing rule Homology_analysis on cluster (jobid: 4, external: Submitted batch job 3588956, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.4.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:38:22 2022]
+Error in rule Homology_analysis:
+    jobid: 11
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_brevipilosa.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/houghia_brevipilosa_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/houghia_brevipilosa_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/houghia_brevipilosa_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588957
+
+Error executing rule Homology_analysis on cluster (jobid: 11, external: Submitted batch job 3588957, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:38:44 2022]
+Error in rule Homology_analysis:
+    jobid: 25
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_janzen27.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/leskia_janzen27_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/leskia_janzen27_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/leskia_janzen27_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588958
+
+Error executing rule Homology_analysis on cluster (jobid: 25, external: Submitted batch job 3588958, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.25.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:38:55 2022]
+Error in rule Homology_analysis:
+    jobid: 19
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/hyphantrophaga_wood11.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/hyphantrophaga_wood11_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/hyphantrophaga_wood11_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/hyphantrophaga_wood11_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588959
+
+Error executing rule Homology_analysis on cluster (jobid: 19, external: Submitted batch job 3588959, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.19.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:39:06 2022]
+Error in rule Homology_analysis:
+    jobid: 33
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/siphosturmia_rafaelidhj03.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/siphosturmia_rafaelidhj03_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/siphosturmia_rafaelidhj03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/siphosturmia_rafaelidhj03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588960
+
+Error executing rule Homology_analysis on cluster (jobid: 33, external: Submitted batch job 3588960, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.33.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:39:27 2022]
+Error in rule Homology_analysis:
+    jobid: 5
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/genea_wood01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/genea_wood01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/genea_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/genea_wood01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588961
+
+Error executing rule Homology_analysis on cluster (jobid: 5, external: Submitted batch job 3588961, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.5.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:39:47 2022]
+Error in rule Homology_analysis:
+    jobid: 12
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/atacta_brasiliensisdhj01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/atacta_brasiliensisdhj01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/atacta_brasiliensisdhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/atacta_brasiliensisdhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588962
+
+Error executing rule Homology_analysis on cluster (jobid: 12, external: Submitted batch job 3588962, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.12.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:40:17 2022]
+Error in rule Homology_analysis:
+    jobid: 26
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/chetogena_scutellarisdhj01.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/chetogena_scutellarisdhj01_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/chetogena_scutellarisdhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/chetogena_scutellarisdhj01_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588963
+
+Error executing rule Homology_analysis on cluster (jobid: 26, external: Submitted batch job 3588963, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.26.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:40:27 2022]
+Error in rule Homology_analysis:
+    jobid: 13
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/houghia_graciloides.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/houghia_graciloides_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/houghia_graciloides_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/houghia_graciloides_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588964
+
+Error executing rule Homology_analysis on cluster (jobid: 13, external: Submitted batch job 3588964, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.13.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 18:40:37 2022]
+Error in rule Homology_analysis:
+    jobid: 27
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2.m8
+    shell:
+        
+		#Create a directory where the BlastX results will be written 
+		mkdir -p /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/
+		#Create the query database (for each query genome/sequence)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs createdb /beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/leskia_wood01dhj03.fna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/leskia_wood01dhj03_mmseqs2_db
+		#Run Mmseqs2 search (BlastX equivalent, homology search between query and db)
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs search /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/leskia_wood01dhj03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/tpm -a -s 7.5 -e 0.01 --threads 10 --remove-tmp-files
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qaln,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/leskia_wood01dhj03_mmseqs2_db /beegfs/data/soukkal/StageM2/Databases/Refseq_viral_db_nophages_nopolydna /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2 /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/run_mmseqs2/result_mmseqs2.m8
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3588965
+
+Error executing rule Homology_analysis on cluster (jobid: 27, external: Submitted batch job 3588965, jobscript: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/tmp.kj55ixqu/snakejob.Homology_analysis.27.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Mar 31 20:15:35 2022]
+Finished job 34.
+1 of 149 steps (0.67%) done
+[Thu Mar 31 20:29:56 2022]
+Finished job 6.
+2 of 149 steps (1%) done
+[Thu Mar 31 21:03:08 2022]
+Finished job 30.
+3 of 149 steps (2%) done
+[Thu Mar 31 23:31:00 2022]
+Finished job 20.
+4 of 149 steps (3%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-03-31T175354.832255.snakemake.log

@@ -1,0 +1,17 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 200
+Job counts:
+	count	jobs
+	1	Filter_loci
+	1	NR_homology
+	1	all
+	3
+
+[Thu Apr  7 12:24:33 2022]
+rule NR_homology:
+    input: /beegfs/data/bguinet/these/NR_db
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8
+    jobid: 113
+
+Submitted job 113 with external jobid 'Submitted batch job 3617629'.

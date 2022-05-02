@@ -1,0 +1,2 @@
+SyntaxError in line 57 of /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Snakemake_viral_homology_Control:
+Command must be given as string after the shell keyword. (Snakemake_viral_homology_Control, line 57)

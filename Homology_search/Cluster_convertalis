@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -J Convertalis
+#SBATCH --partition=normal
+#SBATCH --time=10:00:00
+#SBATCH --cpus-per-task=20
+#SBATCH -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Convertalis.out
+#SBATCH -e /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Convertalis.error
+
+/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs convertalis --format-output 'query,tlen,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,tcov' /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/All_fasta_viral_loci_db /beegfs/data/bguinet/these/NR_db /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_Nr.m8 --threads 20

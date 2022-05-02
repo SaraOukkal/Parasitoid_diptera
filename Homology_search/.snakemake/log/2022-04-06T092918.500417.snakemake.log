@@ -1,0 +1,850 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 200
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	37	Translate_loci
+	38
+
+[Wed Apr  6 09:29:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+    jobid: 132
+    wildcards: Genome_ID=jurinella_wood01
+
+
+[Wed Apr  6 09:29:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+    jobid: 118
+    wildcards: Genome_ID=genea_wood03dhj01
+
+
+[Wed Apr  6 09:29:21 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+    jobid: 146
+    wildcards: Genome_ID=siphosturmia_wood02
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa
+    jobid: 140
+    wildcards: Genome_ID=lixophaga_wood06
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa
+    jobid: 126
+    wildcards: Genome_ID=houghia_pallida
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa
+    jobid: 119
+    wildcards: Genome_ID=argyrophylax_albincisadhj04
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa
+    jobid: 133
+    wildcards: Genome_ID=calolydella_timjamesi
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/cordyligaster_capellii/Fasta_viral_loci.faa
+    jobid: 147
+    wildcards: Genome_ID=cordyligaster_capellii
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa
+    jobid: 113
+    wildcards: Genome_ID=aplomyopsis_wood01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa
+    jobid: 127
+    wildcards: Genome_ID=belvosia_woodley07g
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa
+    jobid: 141
+    wildcards: Genome_ID=chrysoexorista_wood04
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa
+    jobid: 120
+    wildcards: Genome_ID=houghia_bivittata
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa
+    jobid: 134
+    wildcards: Genome_ID=leschenaultia_wood15
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa
+    jobid: 148
+    wildcards: Genome_ID=zizyphomyia_argutadhj02
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa
+    jobid: 114
+    wildcards: Genome_ID=drino_wood06dhj05
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa
+    jobid: 128
+    wildcards: Genome_ID=hyphantrophaga_virilis
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa
+    jobid: 142
+    wildcards: Genome_ID=lixophaga_wood09
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa
+    jobid: 135
+    wildcards: Genome_ID=campylocheta_wood03
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa
+    jobid: 121
+    wildcards: Genome_ID=argyrophylax_wood05
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa
+    jobid: 149
+    wildcards: Genome_ID=drino_wood06dhj01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa
+    jobid: 115
+    wildcards: Genome_ID=archytas_wood02
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa
+    jobid: 129
+    wildcards: Genome_ID=belvosia_woodley10
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+    jobid: 143
+    wildcards: Genome_ID=chrysotachina_wood01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+    jobid: 122
+    wildcards: Genome_ID=houghia_brevipilosa
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+    jobid: 136
+    wildcards: Genome_ID=leskia_janzen27
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+    jobid: 116
+    wildcards: Genome_ID=genea_wood01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+    jobid: 130
+    wildcards: Genome_ID=hyphantrophaga_wood11
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+    jobid: 144
+    wildcards: Genome_ID=siphosturmia_rafaelidhj03
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+    jobid: 123
+    wildcards: Genome_ID=atacta_brasiliensisdhj01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+    jobid: 137
+    wildcards: Genome_ID=chetogena_scutellarisdhj01
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+    jobid: 117
+    wildcards: Genome_ID=argyrochaetona_cubanadhj02
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+    jobid: 131
+    wildcards: Genome_ID=calolydella_erasmocoronadoi
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+    jobid: 145
+    wildcards: Genome_ID=chrysotachina_wood02dhj02
+
+
+[Wed Apr  6 09:29:22 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa
+    jobid: 125
+    wildcards: Genome_ID=austrophorocera_wood05
+
+
+[Wed Apr  6 09:29:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+    jobid: 124
+    wildcards: Genome_ID=houghia_graciloides
+
+
+[Wed Apr  6 09:29:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+    jobid: 138
+    wildcards: Genome_ID=leskia_wood01dhj03
+
+
+[Wed Apr  6 09:29:23 2022]
+rule Translate_loci:
+    input: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa
+    jobid: 139
+    wildcards: Genome_ID=chrysoexorista_wood01dhj02
+
+[Wed Apr  6 09:29:25 2022]
+Finished job 147.
+1 of 38 steps (3%) done
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 146
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_wood02/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 127
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley07g/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 144
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/siphosturmia_rafaelidhj03/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 141
+[Wed Apr  6 09:29:26 2022]
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa
+Error in rule Translate_loci:
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    jobid: 119
+
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood04/Fasta_viral_loci.faa
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_albincisadhj04/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 139
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysoexorista_wood01dhj02/Fasta_viral_loci.faa
+    jobid: 123
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/atacta_brasiliensisdhj01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 117
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrochaetona_cubanadhj02/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 148
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/zizyphomyia_argutadhj02/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 113
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/aplomyopsis_wood01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 132
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/jurinella_wood01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 124
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_graciloides/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:26 2022]
+Error in rule Translate_loci:
+    jobid: 121
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/argyrophylax_wood05/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 129
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/belvosia_woodley10/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 128
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_virilis/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 118
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood03dhj01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 149
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 130
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/hyphantrophaga_wood11/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 145
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+[Wed Apr  6 09:29:27 2022]
+
+Error in rule Translate_loci:
+    jobid: 120
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood02dhj02/Fasta_viral_loci.faa
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 136
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_bivittata/Fasta_viral_loci.faa
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_janzen27/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 138
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leskia_wood01dhj03/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 140
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood06/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 115
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/archytas_wood02/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 122
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_brevipilosa/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+Error in rule Translate_loci:
+    jobid: 143
+    jobid: 135
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chrysotachina_wood01/Fasta_viral_loci.faa
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/campylocheta_wood03/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:27 2022]
+Error in rule Translate_loci:
+    jobid: 142
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/lixophaga_wood09/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:28 2022]
+Error in rule Translate_loci:
+    jobid: 116
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/genea_wood01/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:28 2022]
+Error in rule Translate_loci:
+    jobid: 126
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/houghia_pallida/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:28 2022]
+Error in rule Translate_loci:
+    jobid: 134
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/leschenaultia_wood15/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:28 2022]
+Error in rule Translate_loci:
+    jobid: 114
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/drino_wood06dhj05/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:29 2022]
+Error in rule Translate_loci:
+    jobid: 125
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/austrophorocera_wood05/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:29 2022]
+Error in rule Translate_loci:
+    jobid: 131
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_erasmocoronadoi/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:29 2022]
+Error in rule Translate_loci:
+    jobid: 133
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/calolydella_timjamesi/Fasta_viral_loci.faa
+[Wed Apr  6 09:29:31 2022]
+Error in rule Translate_loci:
+    jobid: 137
+    output: /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+    shell:
+        
+		python3 /beegfs/data/soukkal/StageM2/Scripts/Homology_search/Translate_DNA_to_AA.py -f /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci1.fna -o /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+		#Concatenate protein loci from all species
+		mkdir /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/
+		cat /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa  >> /beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa
+		
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job Translate_loci since they might be corrupted:
+/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Viral_Homology_results/chetogena_scutellarisdhj01/Fasta_viral_loci.faa
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/Homology_search/.snakemake/log/2022-04-06T092918.500417.snakemake.log

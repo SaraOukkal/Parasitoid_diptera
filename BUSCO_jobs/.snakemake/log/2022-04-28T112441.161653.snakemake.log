@@ -1,0 +1,92 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 8000
+Job counts:
+	count	jobs
+	3	BUSCO
+	5	Sum
+	1	all
+	9
+
+[Thu Apr 28 11:24:45 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_011057455.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_011057455.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 2
+    wildcards: Genome_ID=GCA_011057455.1
+
+Submitted job 2 with external jobid 'Submitted batch job 3678763'.
+
+[Thu Apr 28 11:24:45 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCF_015476425.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCF_015476425.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 3
+    wildcards: Genome_ID=GCF_015476425.1
+
+Submitted job 3 with external jobid 'Submitted batch job 3678764'.
+
+[Thu Apr 28 11:24:45 2022]
+rule BUSCO:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/GCA_009823575.1.fna
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_009823575.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    jobid: 4
+    wildcards: Genome_ID=GCA_009823575.1
+
+Submitted job 4 with external jobid 'Submitted batch job 3678765'.
+
+[Thu Apr 28 11:24:45 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/Sum_table_GCA_001855655.1.txt
+    jobid: 11
+    wildcards: Genome_ID=GCA_001855655.1
+
+Submitted job 11 with external jobid 'Submitted batch job 3678766'.
+
+[Thu Apr 28 11:24:45 2022]
+rule Sum:
+    input: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/Sum_table_GCA_019393585.1.txt
+    jobid: 15
+    wildcards: Genome_ID=GCA_019393585.1
+
+Submitted job 15 with external jobid 'Submitted batch job 3678767'.
+[Thu Apr 28 11:25:05 2022]
+Error in rule Sum:
+    jobid: 11
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/Sum_table_GCA_001855655.1.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/Sum_table_GCA_001855655.1.txt -sp GCA_001855655.1
+     cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_001855655.1/BUSCO_results/Sum_table_GCA_001855655.1.txt /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Busco_sum/Sum_table_GCA_001855655.1.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3678766
+
+Error executing rule Sum on cluster (jobid: 11, external: Submitted batch job 3678766, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.0w0yx32n/snakejob.Sum.11.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 28 11:25:05 2022]
+Error in rule Sum:
+    jobid: 15
+    output: /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/Sum_table_GCA_019393585.1.txt
+    shell:
+        
+     python3 /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Busco_summary.py -sum /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/run_hymenoptera_odb10/full_table.tsv  -o /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/Sum_table_GCA_019393585.1.txt -sp GCA_019393585.1
+     cp /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/GCA_019393585.1/BUSCO_results/Sum_table_GCA_019393585.1.txt /beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Stat_Results/Busco_sum/Sum_table_GCA_019393585.1.txt
+     
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    cluster_jobid: Submitted batch job 3678767
+
+Error executing rule Sum on cluster (jobid: 15, external: Submitted batch job 3678767, jobscript: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/tmp.0w0yx32n/snakejob.Sum.15.sh). For error details see the cluster log and the log files of the involved rule(s).
+[Thu Apr 28 19:39:26 2022]
+Finished job 3.
+1 of 9 steps (11%) done
+[Thu Apr 28 23:59:43 2022]
+Finished job 2.
+2 of 9 steps (22%) done
+[Fri Apr 29 05:42:30 2022]
+Finished job 4.
+3 of 9 steps (33%) done
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/.snakemake/log/2022-04-28T112441.161653.snakemake.log

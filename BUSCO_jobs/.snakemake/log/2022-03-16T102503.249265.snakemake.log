@@ -1,0 +1,3 @@
+ModuleNotFoundError in line 1 of /beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Tachinids:
+No module named 'pandas'
+  File "/beegfs/data/soukkal/StageM2/Scripts/BUSCO_jobs/Snakemake_BUSCO_QUAST_Tachinids", line 1, in <module>
