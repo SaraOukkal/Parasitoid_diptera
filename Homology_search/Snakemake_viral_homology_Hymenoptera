@@ -13,7 +13,7 @@ mmseqs2="/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs" #(version 5daca424b162cc5
 #Your paths 
 Genomes_paths="/beegfs/data/soukkal/StageM2/Hymenoptera_genomes/genomes/"
 Output_dir="/beegfs/data/soukkal/StageM2/Hymenoptera_genomes/results/Viral_Homology_results/" 
-Scripts_dir="/beegfs/data/soukkal/StageM2/Scripts/Homology_search/" 
+Scripts_dir="/beegfs/data/soukkal/StageM2/Parasitoid_diptera/Homology_search/" 
 DB_dir="/beegfs/data/soukkal/StageM2/Databases/"
 
 Genome_IDS_table=pd.read_csv("/beegfs/data/soukkal/StageM2/Hymenoptera_genomes/Access_num.txt",header=None)
@@ -27,7 +27,11 @@ rule all:
 		expand(Output_dir+"{Genome_ID}/run_mmseqs2/result_mmseqs2_strand_V.m8", Genome_ID = list_Genome_IDs),
 		expand(Output_dir+"{Genome_ID}/run_mmseqs2/result_mmseqs2_strand_summary_V.bed", Genome_ID = list_Genome_IDs),
 		expand(Output_dir+"{Genome_ID}/Fasta_viral_loci.fna", Genome_ID = list_Genome_IDs),
-		expand(Output_dir+"{Genome_ID}/Fasta_viral_loci.faa", Genome_ID = list_Genome_IDs)
+		expand(Output_dir+"{Genome_ID}/Fasta_viral_loci.faa", Genome_ID = list_Genome_IDs),
+		Output_dir+"Filter_loci/_lca.tsv",
+		Output_dir+"Filter_loci/Filtered_loci_unclassified_virus.fna",
+		Output_dir+"Filter_loci/Filtered_loci_unclassified_virus.faa"
+
 
 #First create the viral db : 
 rule Create_viral_db:
@@ -119,5 +123,55 @@ rule Extract_translate_loci:
 		cat {output.Loci_aa} >> {Output_dir}Viral_loci/Candidate_viral_loci_and_viral_protein.aa
 		cat {output.Loci_aa} >> {Output_dir}Viral_loci/All_fasta_viral_loci.faa
 		cat {output.Loci_dna} >> {Output_dir}Viral_loci/All_fasta_viral_loci.fna
+		"""
+
+##Filter loci: 
+##Taxonomy assignation : 
+#Before running this rule you need to create the custom database: for that dowload UniRef90, createtaxdb with mmseqs then filterseqtaxdb remove diptera and hymenoptera '!tax_id&&!tax_id'
+rule Taxonomy_assignment: 
+	params:
+		threads="40",
+		time="48:00:00",
+		mem="1G",
+		name="Taxonomy_assignment",
+		out=Output_dir+"Tax_assignment.out",
+		err=Output_dir+"Tax_assignment.error"
+	input:
+		Loci=Output_dir+"Viral_loci/Candidate_viral_loci_and_viral_protein.aa"
+	output:
+		report=Output_dir+"Filter_loci/_lca.tsv"
+	shell:
+		"""
+		/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs easy-taxonomy /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Viral_loci/Candidate_viral_loci_and_viral_protein.aa /beegfs/data/soukkal/StageM2/Databases/UniRef90_nodiptera_nohymenoptera /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Filter_loci/ /beegfs/data/soukkal/StageM2/Control_genomes/results/Viral_Homology_results/Filter_loci/tmp_files --tax-lineage 1
+		"""
+
+rule Filter_loci: 
+	params:
+		threads="2",
+		time="00:10:00",
+		mem="2000M",
+		name="Filter_loci",
+		out=Output_dir+"Filter_loci/Filter.out",
+		err=Output_dir+"Filter_loci/Filter.error"
+	input:
+		Tax_report=Output_dir+"Filter_loci/_lca.tsv",
+		Fasta_aa=Output_dir+"Viral_loci/All_fasta_viral_loci.faa",
+		Fasta_nt=Output_dir+"Viral_loci/All_fasta_viral_loci.fna"
+	output:
+		Filtered_aa=Output_dir+"Filter_loci/Filtered_loci_unclassified_virus.faa",
+		Filtered_nt=Output_dir+"Filter_loci/Filtered_loci_unclassified_virus.fna"
+	shell:
+		"""
+		#Filtrer les loci après l'assignement taxonomique de mmseqs Taxonomy 
+		##Récupérer les noms de locus assignés à des virus: 
+		cat {input.Tax_report}  | cut -f1,4 | grep "virus" | cut -f1 > {Output_dir}Filter_loci/Virus_loci_names.txt
+		##Récupérer les noms de locus non assignés (car ils ont hit sur des virus précédement, donc la unclassified = Pas dans la BDD UniRef90)
+		cat {input.Tax_report} | cut -f1,4 | grep "unclassified" | cut -f1 > {Output_dir}Filter_loci/Unclassified_loci_names.txt
+		##Concaténer les deux listes : 
+		cat {Output_dir}Filter_loci/Virus_loci_names.txt {Output_dir}Filter_loci/Unclassified_loci_names.txt >> {Output_dir}Filter_loci/Unclassified_and_virus_loci_names.txt
+		##Filtrer le fichier fasta d'AA : 
+		seqkit grep -f {Output_dir}Filter_loci/Unclassified_and_virus_loci_names.txt {input.Fasta_aa} > {output.Filtered_aa}
+		##Filtrer le fichier fasta de nucléotides :
+		seqkit grep -f {Output_dir}Filter_loci/Unclassified_and_virus_loci_names.txt {input.Fasta_nt} > {output.Filtered_nt}
 		"""
 
