@@ -1,0 +1,109 @@
+import re
+import os
+import pandas as pd 
+
+# nohup snakemake -j 8000  -s Snakefile_BUSCO_phylogeny_sara  --cluster "sbatch -J {params.name} -p normal -N 1 --cpus-per-task  {params.threads}  -o {params.out} -e {params.err} " &> nohup_Snakemake_BUSCO_phylogeny.out &
+# nohup snakemake -j 8000  -s Snakefile_BUSCO_phylogeny_sara  --until Omega_Busco_alignment --cluster "sbatch -J {params.name} -p normal -N 1 --cpus-per-task  {params.threads}  -o {params.out} -e {params.err} -t {params.time} " &> nohup_Snakemake_BUSCO_alignments.out &
+###Snake file
+#Note : This SnakeFile allows to conduct a BUSCO phylogeny 
+
+#Programs 
+
+
+species_tab=pd.read_csv("/beegfs/data/soukkal/StageM2/Species_list.txt",header=None)
+print("Number of species analysed :", len(species_tab))
+Species_list=list(species_tab[0])
+
+# Paths 
+Genome_paths=['Control_genomes','Tachinids_genomes','Hymenoptera_genomes']
+BUSCO_phylogeny_path="/beegfs/data/soukkal/StageM2/BUSCO_phylogeny"
+Main_dir="/beegfs/data/soukkal/StageM2/"
+
+if not os.path.exists(BUSCO_phylogeny_path+"/BUSCO_files/"):
+  os.mkdir(BUSCO_phylogeny_path+"/BUSCO_files/") 
+
+if not os.path.exists(BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/"):
+  os.mkdir(BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/")
+
+# Usefull functions 
+
+# Change n missing option to specify the number of species that can miss a BUSCO IDs (0 = all species of the alignment should possess the BUSCO
+def BUSCO_argument(Species_list,Genome_paths):
+  list_sp=Species_list
+  list_cat=Genome_paths
+  argument="/beegfs/data/soukkal/StageM2/Parasitoid_diptera/BUSCO_Phylogeny/Create_BUSCO_files_for_phylogeny_sara.py -l "+",".join(list_sp)+" -out_busco_dir "+BUSCO_phylogeny_path+" -main_dir "+Main_dir +" -n_missing 6 -cat_list "+",".join(list_cat)
+  return(argument)
+
+BUSCO_argument(Species_list,Genome_paths)
+
+rule all:
+        input: 
+               BUSCO_phylogeny_path+"/BUSCO_files/Control_check1.txt",
+               expand(BUSCO_phylogeny_path+"/BUSCO_files/{sample}", sample = [f for f in os.listdir(BUSCO_phylogeny_path+"/BUSCO_files") if f.endswith('.faa')]),
+               expand(BUSCO_phylogeny_path+"/BUSCO_alignments/{sample}.aa.aln",sample = [re.sub(r'.faa', '',i) for i in [f for f in os.listdir(BUSCO_phylogeny_path+"/BUSCO_files") if f.endswith('.faa')]]),
+               #BUSCO_phylogeny_path+"/BUSCO_alignments/Control_check2.txt",
+               expand(BUSCO_phylogeny_path+"/BUSCO_alignments/{sample}.aa.aln.trimmed",sample = [re.sub(r'.faa', '',i) for i in [f for f in os.listdir(BUSCO_phylogeny_path+"/BUSCO_files") if f.endswith('.faa')]]),
+               BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/Concatenated_BUSCO_sequences.treefile"
+
+
+rule Create_BUSCO_files:
+	params:
+		BUSCO_command=BUSCO_argument(Species_list,Genome_paths)
+	output:
+		Check_output=BUSCO_phylogeny_path+"/BUSCO_files/Control_check1.txt"
+	shell:
+		"""
+		python3 -u {params.BUSCO_command} || true
+		mkdir -p {BUSCO_phylogeny_path}/BUSCO_alignments
+		"""
+
+
+#Run omega analysis 
+rule Omega_Busco_alignment:
+  params:
+     threads="4",
+     time="1:00:00",
+     name="Omega_alignment_{sample}",
+     out=BUSCO_phylogeny_path+"/BUSCO_alignments/Omega_run_{sample}.out",
+     err=BUSCO_phylogeny_path+"/BUSCO_alignments/Omega_run_{sample}.error"
+  input:
+     Busco_file=BUSCO_phylogeny_path+"/BUSCO_files/{sample}.faa",
+     Fake_input=BUSCO_phylogeny_path+"/BUSCO_files/Control_check1.txt"
+  output:
+     Alignment_Busco_file=BUSCO_phylogeny_path+"/BUSCO_alignments/{sample}.aa.aln",
+     Trimmed_Alignment_Busco_file=BUSCO_phylogeny_path+"/BUSCO_alignments/{sample}.aa.aln.trimmed"
+  shell:
+     """
+     #Clustal0 Alignment 
+     /beegfs/data/bguinet/TOOLS/clustalo -v -i {input.Busco_file} --out {output.Alignment_Busco_file} --threads {params.threads}
+     #Trimal
+     /beegfs/data/bguinet/TOOLS/trimal/source/trimal -in {output.Alignment_Busco_file} -automated1 -resoverlap 0.30 -seqoverlap 30 -fasta -out {output.Trimmed_Alignment_Busco_file}
+     """
+
+
+# Run a ML phylogeny inference on all concatenated trimmed BUSCO aligmnents with best partitionned models 
+rule BUSCO_phylogeny:
+  params:
+     threads="20",
+     time="72:00:00",
+     name="BUSCO_phylogeny",
+     out=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/BUSCO_concatenated_phylogeny.out",
+     err=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/BUSCO_concatenated_phylogeny.error"
+  output:
+     BUSCO_partition=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/partition_BUSCO.txt",
+     BUSCO_partition2=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/partition_BUSCO.tab",
+     Concatenated_BUSCO_alignment=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/Concatenated_BUSCO_sequences.aln",
+     Treefile_output=BUSCO_phylogeny_path+"/BUSCO_concatenated_phylogeny/Concatenated_BUSCO_sequences.treefile"
+  shell:
+     """
+     hostname
+     cd {BUSCO_phylogeny_path}/BUSCO_concatenated_phylogeny
+     #Concatenate cluster trimmed alignment 
+     perl /beegfs/home/bguinet/these_scripts_2/catfasta2phyml.pl -f --concatenate --verbose {BUSCO_phylogeny_path}/BUSCO_alignments/*.aa.aln > {output.Concatenated_BUSCO_alignment}  2> {output.BUSCO_partition} || true
+     #Transform to partition.tab 
+     grep '.aa.aln =' {output.BUSCO_partition} >> {output.BUSCO_partition2} || true
+     sed -i "s@.*/BUSCO@AA, BUSCO@g" {output.BUSCO_partition2}
+     cat {output.BUSCO_partition2}
+     #Inferring species tree with ultraboostap  and alrt 
+     /beegfs/data/bguinet/TOOLS/iqtree-2.1.2-Linux/bin/iqtree2 -s {output.Concatenated_BUSCO_alignment} -spp {output.BUSCO_partition2} --prefix Concatenated_BUSCO_sequences -m MFP -alrt 2500  -bb 2500 -bnni --symtest-remove-bad  -nt {params.threads}
+     """
