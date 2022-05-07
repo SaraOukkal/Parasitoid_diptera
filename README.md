@@ -1,7 +1,6 @@
 # Parasitoid_diptera
 Stage M2 
 
-
 ## Species: 
 
 3 groups of species: 
@@ -9,7 +8,12 @@ Stage M2
 - Negative Control (Non parasitoid diptera) named here Control
 - Positif Control (Hymenoptera) named here Hymenoptera 
 
+First genome assemblies of negative and positive controls were downloaded from ncbi. 
+Genome assemblies of tachinids were produced by the team. 
+
 ## Assemblies quality analysis: 
+
+The quality of the assembly of these genomes should be assessed through descriptive statistics and the prevalence of BUSCO genes
 
 Repository : BUSCO_jobs 
 
@@ -25,7 +29,6 @@ Sum up BUSCO results in an easily readable file (Python):
 - Busco_summary.py
 
 ## Homology search: 
-
 ### First homology search: 
 
 Repository : Homology_search
@@ -36,6 +39,8 @@ Perform Homology search, create candidate loci, fetch fasta aa and nt sequences,
 - Snakemake_viral_homology_Control for Control species 
 - Snakemake_viral_homology_Tachinids for Tachinids species 
 - Snakemake_viral_homology_Hymenoptera for Hymenoptera species 
+
+WARNING: on Pbil-deb cluster, mmseqs does not run on all nodes, you should specify : --constraint="skylake|haswell|broadwell" and --exclude=pbil-deb27
 
 Regroup overlapping viral hits (R): 
 - Overlapping_sequences_BUSCO_Viral_loci2.R
@@ -62,9 +67,22 @@ Specifically filter candidate loci (bash):
 
 ## Clustering: 
 
+Repository : Clustering 
+
+In this step we perform clustering with to gather candidate loci and viral proteins in the same clusters based on sequence homologies. 
+First we need to concatenate the filtred queries loci (Control+Tachinids+Hymenoptera) with the proteins from the target (Refseq virus DB)
+
+Mmseqs clustering + change results format with mmseqs createtsv + filter clusters (remove those with only viruses and those with more than 50 species):
+- Clustering.sh 
+
 ## BUSCO Phylogeny: 
 
+Repository : BUSCO_phylogeny 
+
+
 ## Candidate loci Phylogeny: 
+
+Repository : Loci_phylogeny 
 
 ## Mapping: 
 
