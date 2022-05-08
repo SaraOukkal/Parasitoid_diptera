@@ -1,3 +1,4 @@
+import numpy as np 
 import argparse
 import networkx as nx
 import pandas as pd
@@ -36,20 +37,27 @@ g = nx.from_pandas_edgelist(df, source='Col1', target='Col2', create_using=nx.Gr
 data = [[f'Cluster{i}', element] for i, component in enumerate(nx.connected_components(g), 1) for element in component]
 result = pd.DataFrame(data=data, columns=['Cluster', 'Names'])
 
+
+print("Total number of Clusters :", len(result['Cluster'].unique()) )
+list1 = result.loc[result.Names.str.contains("\\(")].Cluster.unique() # Select Cluster containing candidate Diptera Loci
+list2 = result.loc[~(result.Names.str.contains("\\("))].Cluster.unique() # Select Cluster containing virus sequences
+final_list = set(list1).intersection(set(list2))
+
+print("Total number of Clusters with a candidate loci and a virus sequence :", len(final_list) )
+
+
+orphelins =  result.groupby('Cluster').size()
+print("Total number of Clusters with only one viral sequence and one Diptera candidate loci :", len(orphelins.loc[orphelins==2])) 
+
+# Filter only Cluster containing at least of candidate diptera loci and virus sequence 
+result=result.loc[result.Cluster.isin(final_list)]
+
+# Count number of Cluster containing only Diptera loci without Virus sequence
+print("Total number of Clusters with candidate loci and without viral sequence :", len(np.setdiff1d(list1,list(result['Cluster']))))
+
+
+
 result.to_csv(Out_file, sep='\t')
 
 
 print("Table saved to :",Out_file)
-
-
-#Specific to side project for LbFV-like family 
-print("Total number of Clusters :", len(result['Cluster'].unique()) )
-list1 = result.loc[result.Names.str.contains("_+_") | result.Names.str.contains("_-_")].Cluster.unique()
-list2 = result.loc[~(result.Names.str.contains("_+_")) |  ~(result.Names.str.contains("_-_"))].Cluster.unique()
-final_list = set(list1).intersection(set(list2))
-result=result.loc[result.Cluster.isin(final_list)]
-
-print("Total number of Clusters (orphelins of known viruses removes) :", len(result['Cluster'].unique()) )
-orphelins =  result.groupby('Cluster').size()
-print("Total number of orphelins Clusters with new viruses ORFs :", len(orphelins.loc[orphelins==1])) 
-
