@@ -1,0 +1,145 @@
+#Usage : 
+#nohup snakemake -j 200 -s Snakemake_Cluster_ali_phylo -n --cluster "sbatch -J {params.name} -p normal --cpus-per-task  {params.threads}  -o {params.out} --mem {params.mem} -e {params.err} --exclude=pbil-deb27 " &> nohup_Snakemake_Cluster_ali_phylo.out &
+
+#Import packages :
+import re 
+from Bio import SeqIO 
+import os 
+
+#Define paths: 
+Cluster_seqs_path="/beegfs/data/soukkal/StageM2/Clustering/Cluster_seqs/" #The path where all cluster seq not aligned will be present
+Cluster_alignment_path="/beegfs/data/soukkal/StageM2/Clustering/Cluster_alignments/" #The path where all aligned cluster seq will be present
+Cluster_phylogeny_path="/beegfs/data/soukkal/StageM2/Clustering/Cluster_phylogeny/"  #The path where all cluster phylognies seq will be present
+
+#If more than 2 taxa (cases where we want to do the alignment and the phylogeny):
+#If less than 2 taxa we align but we do not make a phylogeny: 
+def file_size(filePath):
+    with open(filePath, 'r') as myfile:
+	    data=myfile.read().replace('\n', ' ')
+	    nb=data.count(">")
+	    return nb
+
+#For alignment with more than 1 taxa
+SAMPLES=[]
+for file in os.listdir(Cluster_seqs_path):
+    taxa_list=[]
+    if file.endswith(".faa"):
+      taxa_list=[]
+      for record in SeqIO.parse(Cluster_seqs_path+file, "fasta"):
+         taxa_list.append(re.sub(".*_","",record.id))
+      if len(list(dict.fromkeys(taxa_list)))>1:
+         Clustername=re.sub(".faa","",file)
+         SAMPLES.append(Clustername)
+
+#For phylogeny with more than 2 taxas 
+SAMPLES2=[]
+for file in os.listdir(Cluster_seqs_path):
+    if file.endswith(".faa"):
+      if file_size(Cluster_seqs_path+file)>2:
+         Clustername=re.sub(".faa","",file)
+         SAMPLES2.append(Clustername)
+
+#To do phylogeny only on aligned clusters (ignore those who failed): 
+SAMPLES3=[]
+for file in os.listdir(Cluster_alignment_path):
+    if file.endswith(".faa.aln"):
+      clustername=re.sub(".faa.aln","",file)
+      SAMPLES3.append(clustername)	
+
+#Rule all: 
+
+rule all:
+  input:
+     #expand(Cluster_alignment_path+"{cluster_number}.faa.aln", cluster_number = SAMPLES),
+     Cluster_seqs_path+"HSP_table_details.txt",
+     expand(Cluster_phylogeny_path+"{cluster_number2}.faa.aln.treefile", cluster_number2 = SAMPLES3)
+
+#Run Clustal analysis 
+#rule Clustal_cluster_alignment:
+#  params:
+#     threads="5",
+#     time="04:00:00",
+#     mem="5G",
+#     name="Cluster_alignment_{cluster_number}",
+#     out=Cluster_alignment_path+"Clustal_run_{cluster_number}.out",
+#     err=Cluster_alignment_path+"Clustal_run_{cluster_number}.error"
+#  input:
+#     Cluster_file=Cluster_seqs_path+"{cluster_number}.faa"
+#  output: 
+#     Alignment_cluster_file=Cluster_alignment_path+"{cluster_number}.faa.aln",
+#  shell:
+#     """
+#     hostname
+#     cd {Cluster_seqs_path}
+#     mkdir -p {Cluster_alignment_path}
+#     mkdir -p {Cluster_phylogeny_path}
+#     /beegfs/data/bguinet/TOOLS/clustalo -i {input.Cluster_file} -o {output.Alignment_cluster_file} --threads 5
+#     """
+
+#Regroup loci from the same scaffold found in the same cluster (same origin): 
+
+rule HSP_analysis:
+  params:
+     threads="1",
+     time="00:30:00",
+     mem="2000M",
+     name="HSP",
+     out=Cluster_seqs_path+"HSP.out",
+     err=Cluster_seqs_path+"HSP.error"
+  output:
+     out=Cluster_seqs_path+"HSP_table_details.txt"
+  shell:
+     """
+     python3 /beegfs/data/soukkal/StageM2/Parasitoid_diptera/Clustering/Merge_HSP_sequences_within_clusters.py -d /beegfs/data/soukkal/StageM2/Clustering/ -e .faa.aln -t {output.out} 
+     """
+
+#Run Clustal analysis on HSPs 
+#rule Clustal_cluster_alignment_HSP:
+# params:
+#     threads="5",
+#     time="2:00:00",
+#     mem="50G",
+ #    name="Cluster_alignment_{cluster_number}_HSP",
+  #   out=Cluster_alignment_path+"Clustal_run_{cluster_number}_HSP.out",
+  #   err=Cluster_alignment_path+"Clustal_run_{cluster_number}_HSP.error"
+ # input:
+  #   Cluster_file=Cluster_seqs_path+"{cluster_number}.aa_HSP"
+  #output:
+   #  Alignment_cluster_file=Cluster_alignment_path+"{cluster_number}.faa.aln",
+ # shell:
+  #   """
+   #  hostname
+    # cd {Cluster_seqs_path}
+    # mkdir -p {Cluster_alignment_path}
+    # mkdir -p {Cluster_phylogeny_path}
+    # /beegfs/data/bguinet/TOOLS/clustalo -i {input.Cluster_file} -o {output.Alignment_cluster_file} --threads 5 --force 
+    # """
+
+#Run Phylogeny analysis 
+rule Phylogeny_cluster_alignment:
+  log: Cluster_phylogeny_path+"{cluster_number2}.log"
+  params:
+     threads="3",
+     time="2:00:00",
+     mem="5000M",
+     name="Cluster_phylogeny_{cluster_number2}",
+     out=Cluster_phylogeny_path+"Iqtree_run_{cluster_number2}.out",
+     err=Cluster_phylogeny_path+"Iqtree_run_{cluster_number2}.error"
+  input:
+     Alignment_cluster_file=Cluster_alignment_path+"{cluster_number2}.faa.aln"
+  output:
+     Phylogeny_cluster_file=Cluster_phylogeny_path+"{cluster_number2}.faa.aln.treefile"
+  shell:
+     """ 
+     cd {Cluster_alignment_path}
+     /beegfs/data/bguinet/TOOLS/iqtree-2.1.2-Linux/bin/iqtree2 -s {input.Alignment_cluster_file} -m MFP -alrt 1000  -nt 3
+     #Move since iqtree write files into the same dir as the alignment 
+     mv {wildcards.cluster_number2}.faa.aln.model.gz {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.mldist {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.bionj {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.treefile {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.log {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.iqtree {Cluster_phylogeny_path}
+     mv {wildcards.cluster_number2}.faa.aln.ckp.gz {Cluster_phylogeny_path}
+     sed -i 's@____@_+__@g' {output.Phylogeny_cluster_file}
+     """ 

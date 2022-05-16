@@ -1,0 +1,43 @@
+#Commande : 
+#nohup snakemake -j 200 -s Snakemake_ET_search_Tach -n --cluster "sbatch -J {params.name} -p normal --cpus-per-task  {params.threads} -o {params.out} -e {params.err} --constraint=haswell --exclude=pbil-deb27 " &> nohup_Snakemake_ET_search_Tach.out &
+
+import pandas as pd
+import re 
+import os
+
+#Your softs
+mmseqs2="/beegfs/data/soukkal/TOOLS/mmseqs/bin/mmseqs" #(version 5daca424b162cc5fdf0b9cd151aebed86975cbf6)
+
+#Your paths 
+Genomes_paths="/beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes/"
+Output_dir="/beegfs/data/soukkal/StageM2/Tachinids_genomes/results/Environment_results/ET/" 
+DB_dir="/beegfs/data/soukkal/StageM2/Databases/"
+
+Genome_IDS_table=pd.read_csv("/beegfs/data/soukkal/StageM2/Tachinids_genomes/genomes_list.txt",header=None)
+list_Genome_IDs=list(Genome_IDS_table[0])
+
+#This rule contains all the expected output from all your rules within the snakefile 
+rule all:
+	input:
+		expand(Output_dir+"{Genome_ID}/result_mmseqs2.m9", Genome_ID = list_Genome_IDs)
+
+#Then run the BlastX (Mmseqs2) with Genomes as queries and RepeatPeps as database 
+rule Homology_analysis:
+	params:
+		threads="5",
+		time="02:00:00",
+		mem="1G", 
+		name="Mmseqs2_{Genome_ID}",
+		out=Output_dir+"{Genome_ID}_Mmseqs2_ET_search.out",
+		err=Output_dir+"{Genome_ID}_Mmseqs2_ET_search.error"
+	input:
+		ETDB=DB_dir+"RepeatPeps", 
+		Genomedb=Genomes_paths+"{Genome_ID}.fna"
+	output:
+		out=Output_dir+"{Genome_ID}/result_mmseqs2.m9"
+	shell:
+		"""
+		#From the previous step you get one result file per thread, the next step will format the result column and also put together all the results in one file: 
+		{mmseqs2} convertalis --format-output 'query,target,qstart,qend,evalue,bits' {Output_dir}{wildcards.Genome_ID}/{wildcards.Genome_ID}_mmseqs2_db {input.ETDB} {Output_dir}{wildcards.Genome_ID}/result_mmseqs2 {output.out}
+		"""
+

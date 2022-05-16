@@ -1,0 +1,31 @@
+import pandas as pd
+import re 
+import os
+
+#Your paths 
+Output_dir="/beegfs/data/soukkal/StageM2/" 
+Scripts_dir="/beegfs/data/soukkal/StageM2/Parasitoid_diptera/" 
+
+Genome_IDS_table=pd.read_csv("/beegfs/data/soukkal/StageM2/All_sp_names.txt",header=None)
+list_Genome_IDs=list(Genome_IDS_table[0])
+
+
+rule all:
+	input:
+		expand(Output_dir+"ET/{Genome_ID}/result_mmseqs2_filtred_TE_BUSCO_cov_depth_pvalues.m8", Genome_ID = list_Genome_IDs, Type = list_types)
+
+rule one:
+	params:
+		threads="",
+		time="",
+		name="",
+		out="",
+		err=""
+	input:
+		cluster_info="/beegfs/data/soukkal/StageM2/Clustering/Cluster_information.m8"
+	output:
+
+	shell:
+		"""
+		python3 /beegfs/data/bguinet/these/Sara_M2/Add_genomic_env_TE_cov_pvalues.py -b {cluster_info} -s {wildcards.Genome_ID} -p {output_dir}
+		"""
