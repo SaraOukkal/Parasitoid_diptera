@@ -69,27 +69,62 @@ Specifically filter candidate loci (bash):
 
 Repository : Clustering 
 
-In this step we perform clustering with to gather candidate loci and viral proteins in the same clusters based on sequence homologies. 
+In this step we perform clustering to gather candidate loci and viral proteins in the same clusters based on sequence homologies. 
 First we need to concatenate the filtred queries loci (Control+Tachinids+Hymenoptera) with the proteins from the target (Refseq virus DB)
 
 Mmseqs clustering + change results format with mmseqs createtsv + filter clusters (remove those with only viruses and those with more than 50 species):
 - Clustering.sh 
 
+Clustering.sh contains 4 steps : 
+- It creates query and target databases with mmseqs createdb
+- It performs the clustering with mmseqs cluster
+- It create a tsv file with mmseqs createtsv
+- It filters clusters based on composition criteria and creates a fasta file per cluster with the python script MMseqs2_clust_to_tab_to_seq.py 
+
 ## BUSCO Phylogeny: 
 
 Repository : BUSCO_phylogeny 
 
+Creates a species phylogeny based on 586 BUSCO genes : 
+- Snakemake Snakefile_BUSCO_phylogeny_sara
 
 ## Candidate loci Phylogeny: 
 
-Repository : Loci_phylogeny 
+Repository : Clustering
 
-## Mapping: 
+First it aligns sequences from each cluster, then it groups HSP together, and realigns the clusters with HSP. The second step is to generate the phylogenies from each cluster. 
+
+- Snakemake_Cluster_ali_phylo
+
+## Genomic environement analysis : 
+### Mapping: 
 
 Download SRA reads (bash): 
 - SRA_download_*.sh to run fastq-dump
 - run_SRA_download_*.sh to run SRA_download_*.sh on the cluster for all species specified in a list
 
-Compute coverage (bash): 
+### Coverage : 
+
+Compute coverage for each genomic position (bash): 
 - Coverage_*.sh to run samtools depth
 - run_Coverage_*.sh to run Coverage_*.sh on the cluster for all species specified in a list
+
+### Transposable elements : 
+
+This step is based on homology search to highlight the presence of transposables elements on insect genomes. 
+- Snakemake_ET_search_Control
+- Snakemake_ET_search_Hymeno
+- Snakemake_ET_search_Tach
+
+### Scaffold coverage and presence of BUSCO and/or transposable elements :
+
+-  Snakemake_Env rules Add_genomic_env_TE_cov_pvalues.py on each genome 
+-  Add_genomic_env_TE_cov_pvalues.py creates the null coverage distribution and tests whether each scaffold containing a candidate locus is part of the insect genome
+-  Merge_FDR.py Merges results for each genomes to one table and corrects pvalues for multiple tests (False discovery rate). 
+
+## Monophyly analysis: 
+
+Monophyly is analyzed in each cluster to form monophyletic events of viral elements endogenization within the species tree. 
+
+-  Monophyletic_assessment.R 
+
